@@ -6,7 +6,7 @@ Welcome to the KIS wiki !
 ## Modding
 
 ### Config files
-The KIS plugin exposes part modules which can be used by other mods.
+KIS exposes part modules which can be used by other mods :
 - [ModuleKISInventory](wiki/ModuleKISInventory)
 - [ModuleKISItem](wiki/ModuleKISItem)
 - [ModuleKISPartDrag](wiki/ModuleKISPartDrag)
@@ -14,8 +14,8 @@ The KIS plugin exposes part modules which can be used by other mods.
 - [ModuleKISPickup](wiki/ModuleKISPickup)
 
 ### Plugins
-The KIS plugin allow the creation of plugins for any items easly.
-- [How to create your item plugin](wiki/ItemPlugin)
+KIS allow coding of any item simply by extending the "ModuleKISItem" class.
+- [How to create an item plugin](wiki/ItemPlugin)
 
 ## Reference
 - [Version history](wiki/Changelog)
