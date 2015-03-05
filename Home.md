@@ -5,7 +5,7 @@ Welcome to the KIS wiki !
 
 ## Modding
 
-# Modding
+### Config files
 The KIS plugin exposes part modules (classes extending the KSP PartModule  class) which can be used by other mods.
 - [ModuleKISInventory](wiki/ModuleKISInventory)
 - [ModuleKISItem](wiki/ModuleKISItem)
