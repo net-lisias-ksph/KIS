@@ -4,6 +4,8 @@ Welcome to the KIS wiki !
 [KIS user guide (PDF)](https://github.com/KospY/KIS/blob/master/UserGuide.pdf)
 
 ## Modding
+
+# Modding
 The KIS plugin exposes part modules (classes extending the KSP PartModule  class) which can be used by other mods.
 - [ModuleKISInventory](wiki/ModuleKISInventory)
 - [ModuleKISItem](wiki/ModuleKISItem)
