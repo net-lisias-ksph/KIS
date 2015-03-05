@@ -16,7 +16,7 @@ KIS exposes part modules which can be used by other mods :
 ### Plugins
 KIS allow coding of any item simply by extending the "ModuleKISItem" class.
 - [How to create an item plugin](wiki/ItemPlugin)
-- [Code exemple](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
+- [Code exemples](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
 
 ## Reference
 - [Version history](wiki/Changelog)
