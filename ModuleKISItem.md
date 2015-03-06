@@ -28,7 +28,7 @@ MODULE
 }
 ```
 
-- `shortcutKeyAction`: Define what to do when using eva inventory shortcuts (key 1 to 8). Can be `drop`, `equip` or `custom`.
+- `shortcutKeyAction`: Define what to do when using eva inventory shortcuts (key 1 to 8). Can be "drop", "equip" or "custom".
 - `useName`: Displayed name of the use action for the context menu of the item
 - `usableFromEva`: Can be used from an eva inventory
 - `usableFromContainer`: Can be used from a container inventory
