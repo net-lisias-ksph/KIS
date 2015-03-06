@@ -1,6 +1,6 @@
 #### `ModuleKISPartMount`
 
-This module allow a part to be used for grabbing (all Kerbal Eva have it by default).
+This module allow the part to be a mount for other parts by using drag and drop on it.
 
 Sample module configuration with the default values :
 ```
