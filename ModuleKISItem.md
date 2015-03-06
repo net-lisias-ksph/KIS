@@ -38,7 +38,7 @@ MODULE
 - `volumeOverride`: Set the volume of the item. Set it to 0 to let KIS calculate automatically the volume from mesh.
 - `moveSndPath`: Item move sound path
 - `equipable`: Set if the item can be equipped
-- `equipMode`: 
+- `equipMode`: Can be "model" or "physic". "model" will only show the item model on equip and "physic" will attach the part to the kerbal Eva with physic (please note that this option is pretty buggy and the part will not follow Kerbal bones correctly)
 - `equipSlot`: 
 - `equipTrait`: 
 - `equipRemoveHelmet`: 
