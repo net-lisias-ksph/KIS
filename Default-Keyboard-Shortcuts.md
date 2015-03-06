@@ -13,5 +13,5 @@
 
 ### Editor
 
-- Change stack increment quantity to 10 : Hold `Shift` while clicking (context menu)
-- Change stack increment quantity to 100 : Hold `Ctrl` while clicking (context menu)
+- Change stack increment to 10 : Hold `Shift` while clicking to change quantity (context menu)
+- Change stack increment to 100 : Hold `Ctrl` while clicking (context menu)
