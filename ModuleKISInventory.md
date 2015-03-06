@@ -29,6 +29,6 @@ MODULE
 - `slotSize`: Size of the slots.
 - `itemIconResolution`: Resolution of the item's slot icon.
 - `selfIconResolution`: Resolution of the part's icon.
-- `openSndPath`: Open sound of the inventory
-- `closeSndPath`: Close sound of the inventory
-- `defaultMoveSndPath`: Default move sound of items in the inventory
+- `openSndPath`: Open sound path of the inventory
+- `closeSndPath`: Close sound path of the inventory
+- `defaultMoveSndPath`: Default move sound path of items in the inventory
