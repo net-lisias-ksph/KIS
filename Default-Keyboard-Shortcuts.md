@@ -1,8 +1,8 @@
 ### Grabbing / inventory
 
-- Enable grab/detach mode : Hold `G` key
-- Use equipped right hand item : Press `X` key   
-- Open/close EVA inventory : Press `tab` key 
-- EVA inventory item shortcut : Press `1` `2` key
+- Enable grab/detach mode : Hold `G`
+- Use equipped right hand item : Press `X`  
+- Open/close EVA inventory : Press `tab`
+- EVA inventory item shortcut : Press `1` `2` ...
 
 ### Drop / attach mode
