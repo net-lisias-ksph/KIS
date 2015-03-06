@@ -7,6 +7,6 @@
 
 ### Drop / attach mode
 
-- Cancel drop/attach mode : Press `Echap`
+- Cancel drop/attach mode : Press `Echap` or `Enter`
 - Rotate part by 15° increment : Press `WASD`
-- Rotate part by 1° increment: Hold `shift` while pressing `WASD`
+- Rotate part by 1° increment: Hold `Shift` while pressing `WASD`
