@@ -18,9 +18,10 @@ MODULE
 	openSndPath = KIS/Sounds/containerOpen
 	closeSndPath = KIS/Sounds/containerClose
 	defaultMoveSndPath = KIS/Sounds/itemMove
-}```
+}
+```
 
-- `maxVolume `: Maximum volume of inventory. 
+- `maxVolume`: Maximum volume of inventory. 
 - `externalAccess`: Allow inventory access by right clicking on the part from outside (from EVA)
 - `internalAccess`: Allow inventory access by right clicking on the part from inside (from vessel)
 - `slotsX`: Number of slot on the horizontal axis.
