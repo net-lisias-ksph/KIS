@@ -10,3 +10,8 @@
 - Cancel drop/attach mode : Press `Echap` or `Enter`
 - Rotate part by 15° increment : Press `WASD`
 - Rotate part by 1° increment: Hold `Shift` while pressing `WASD`
+
+### Editor
+
+- Change stack increment quantity to 10 : Hold `Shift` while clicking to change quantity (from item context menu)
+- Change stack increment quantity to 100 : Hold `Ctrl` while clicking to change quantity (from item context menu)
