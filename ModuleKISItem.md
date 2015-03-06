@@ -15,6 +15,7 @@ MODULE
         usableFromEditor = false
         stackable = false
         volumeOverride = 0
+        moveSndPath = KIS/Sounds/itemMove
         equipMode = model
         equipSlot = <null>
         equipTrait = <null>
@@ -23,7 +24,6 @@ MODULE
         equipBoneName = helmet01
         equipPos = (0, 0, 0)
         equipDir = (0, 0, 0)
-        moveSndPath = KIS/Sounds/itemMove
 }
 ```
 
