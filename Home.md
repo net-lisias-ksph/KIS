@@ -9,8 +9,8 @@ Welcome to the KIS wiki !
 KIS exposes part modules which can be used by other mods :
 - [ModuleKISInventory](wiki/ModuleKISInventory)
 - [ModuleKISItem](wiki/ModuleKISItem)
-- [ModuleKISPartDrag](wiki/ModuleKISPartDrag)
 - [ModuleKISPartMount](wiki/ModuleKISPartMount)
+- [ModuleKISPartDrag](wiki/ModuleKISPartDrag)
 - [ModuleKISPickup](wiki/ModuleKISPickup)
 
 ### Plugins
