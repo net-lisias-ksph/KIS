@@ -1,8 +1,8 @@
 KIS allow coding of any item by extending the `ModuleKISItem` class (you will need to add KIS.dll as reference first).
 
-Take note that `ModuleKISItem` class run on the **part prefab module**. Because the part do not exist in the scene when the item is in the inventory, you will need to use KIS specific methods to keep track of the corresponding item class (`KIS_Item` class).
+Take note that `ModuleKISItem` class run on the **part prefab module**. Because the part do not exist in the scene when the item is in the inventory, you will need to use KIS specific methods to keep track of the corresponding `KIS_Item` class of the inventory.
 
-Here is an exemple class to use for your plugin :+1: 
+Here is an exemple class to use for your plugin : 
 
 ```
     public class ModuleMyAwesomeItem : ModuleKISItem
