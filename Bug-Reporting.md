@@ -15,6 +15,9 @@ See if the problem occurs if you uninstall KIS, and also see if it occurs when K
 **Are you up-to-date?**  
 Only the latest version of KIS and the latest version of KSP are supported. Make sure both are completely up-to-date before filing a report.
 
+**Are you using the KSP Windows x64 version ?**  
+x64 Windows version of KSP is not supported. Please be sure to use the x86 Windows version of KSP before filing a report.
+
 ### Filing a report
 
 Bug reports and feature requests should be filled on the [issue tracker](https://github.com/KospY/KIS/issues) here on Github. Please read the following guidelines for filing reports; it's very difficult for me to help otherwise.
