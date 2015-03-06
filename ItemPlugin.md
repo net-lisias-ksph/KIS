@@ -9,37 +9,37 @@ Here is an exemple class to use :
     {
         public override void OnItemUse(KIS_Item item, KIS_Item.UseFrom useFrom)
         {
-        //Use action from context menu, 'x' key press or inventory shortcut key press (1 to 8)
+        //Run when the item is used from context menu, 'x' key press or inventory shortcut key press (1 to 8)
         }
 
         public override void OnItemUpdate(KIS_Item item)
         {
-
+        // Same as update(), but run for each item in the inventory
         }
 
         public override void OnItemGUI(KIS_Item item)
         {
-
+        // Same as onGUI(), but run for each item in the inventory
         }
 
         public override void OnDragToPart(KIS_Item item, Part destPart)
         {
-
+        // Run when the item is dragged on another part 
         }
 
         public override void OnDragToInventory(KIS_Item item, ModuleKISInventory destInventory, int destSlot)
         {
-
+        // Run when the item is dragged to an inventory
         }
 
         public override void OnEquip(KIS_Item item)
         {
-
+        // Run when the item is equipped        
         }
 
         public override void OnUnEquip(KIS_Item item)
         {
-
+        // Run when the item is unequipped 
         }
     }
 ```
