@@ -28,3 +28,19 @@ MODULE
 ```
 
 - `shortcutKeyAction `: 
+- `useName`: 
+- `usableFromEva`: 
+- `usableFromContainer`: 
+- `usableFromPod`: 
+- `usableFromEditor`: 
+- `stackable`: 
+- `volumeOverride`: 
+- `moveSndPath`: 
+- `equipMode`: 
+- `equipSlot`: 
+- `equipTrait`: 
+- `equipRemoveHelmet`: 
+- `equipMeshName`: 
+- `equipBoneName`: 
+- `equipPos`: 
+- `equipDir`: 
