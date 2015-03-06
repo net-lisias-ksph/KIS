@@ -16,7 +16,7 @@ MODULE
         stackable = false
         volumeOverride = 0
         moveSndPath = KIS/Sounds/itemMove
-	equipable = false
+        equipable = false
         equipMode = model
         equipSlot = <null>
         equipTrait = <null>
