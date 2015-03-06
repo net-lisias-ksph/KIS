@@ -21,7 +21,13 @@ MODULE
 }```
 
 - `maxVolume`: 
-- `externalAccess `: 
-- `externalAccess `: 
-- `externalAccess `: 
-- `externalAccess `: 
+- `externalAccess`: 
+- `internalAccess`: 
+- `slotsX`: 
+- `slotsY`: 
+- `slotSize`: 
+- `itemIconResolution`: 
+- `selfIconResolution`:
+- `openSndPath`:
+- `closeSndPath`:
+- `defaultMoveSndPath`:
