@@ -7,11 +7,11 @@
 
 ### Drop / attach mode
 
-- Cancel drop/attach mode : Press `Echap` or `Enter`
 - Drop/attach : Press `Mouse left`
 - Change anchor node : Press `R`
 - Rotate part by 15° increment : Press `WASD`
 - Rotate part by 1° increment: Hold `Shift` while pressing `WASD`
+- Cancel drop/attach mode : Press `Echap` or `Enter`
 
 ### Editor
 
