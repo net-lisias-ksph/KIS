@@ -6,7 +6,7 @@ Sample module configuration (exemple) :
 ```
 MODULE
 {
-	name = ModuleKISItem
+        name = ModuleKISItem
         shortcutKeyAction = drop
         moveSndPath = KIS/Sounds/itemMove
         usableFromEva = false
