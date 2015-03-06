@@ -1,7 +1,8 @@
 Welcome to the KIS wiki !
 
 ## How to use
-[KIS user guide (PDF)](https://github.com/KospY/KIS/blob/master/UserGuide.pdf)
+- [KIS user guide (PDF)](https://github.com/KospY/KIS/blob/master/UserGuide.pdf)
+- [Default Keyboard Shortcuts](wiki/Default Keyboard Shortcuts)
 
 ## Modding
 
