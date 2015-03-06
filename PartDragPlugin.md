@@ -6,6 +6,10 @@ Here is an exemple class to use :
 ```
     public class ModuleMyAwesomeDragPart : ModuleKISItem
     {
+        public string dragIconPath = "KIS/Textures/unknow"; //Drag icon texture when hovering the part
+        public string dragText = "Unknow action"; //Text when hovering the part
+        public string dragText2 = "Bla bla"; //Another line of text when hovering the part
+
         public override void OnItemDragged(KIS_Item draggedItem)
         {
         //Run when an item is dragged on it (from an inventory) 
