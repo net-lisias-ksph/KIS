@@ -1,0 +1,1 @@
+KIS allow coding of any item simply by extending the "ModuleKISItem" class.
