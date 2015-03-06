@@ -28,7 +28,7 @@ MODULE
 }
 ```
 
-- `shortcutKeyAction`: Define what to do when eva inventory key is pressed (1..8). Can be `drop`, `equip` or `custom`.
+- `shortcutKeyAction`: Define what to do when using eva inventory shortcuts (key 1 to 8). Can be `drop`, `equip` or `custom`.
 - `useName`: 
 - `usableFromEva`: 
 - `usableFromContainer`: 
