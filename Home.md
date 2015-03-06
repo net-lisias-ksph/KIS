@@ -3,7 +3,7 @@ Welcome to the KIS wiki !
 ## How to use
 - [KIS user guide (PDF)](https://github.com/KospY/KIS/blob/master/UserGuide.pdf)
 - [Default Keyboard Shortcuts](wiki/Default Keyboard Shortcuts)
-
+- [Known issues](wiki/Known issues)
 ## Modding
 
 ### Config files
