@@ -9,7 +9,7 @@ Here is an exemple class to use :
     {
         public override void OnItemUse(KIS_Item item, KIS_Item.UseFrom useFrom)
         {
-              //Fired when an user use context menu action, press the 'x' key or use inventory shortcut '1' to '8'
+        //Fired when an user use context menu action, press the 'x' key or use inventory shortcut (1 to 8)
         }
 
         public override void OnItemUpdate(KIS_Item item)
