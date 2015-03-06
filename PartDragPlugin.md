@@ -1,0 +1,1 @@
+KIS allow coding of item drag on part by extending the "ModuleKISPartDrag" class. This allow to do some custom action on drag (like the container mount).
