@@ -1,6 +1,6 @@
 #### `ModuleKISPickup`
 
-This module allow a part to be used for grabbing. (By default on all Kerbal Eva)
+This module allow a part to be used for grabbing (all Kerbal Eva have it by default).
 
 Sample module configuration with the default values :
 ```
