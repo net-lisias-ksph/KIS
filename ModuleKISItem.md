@@ -28,7 +28,7 @@ MODULE
 }
 ```
 
-- `shortcutKeyAction `: 
+- `shortcutKeyAction`: Can be drop,equip or action
 - `useName`: 
 - `usableFromEva`: 
 - `usableFromContainer`: 
