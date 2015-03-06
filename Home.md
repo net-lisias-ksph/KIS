@@ -13,7 +13,7 @@ KIS exposes part modules which can be used by other mods :
 - [ModuleKISPickup](wiki/ModuleKISPickup)
 
 ### Plugins
-KIS allow coding of any item simply by extending the "ModuleKISItem" class.
+KIS plugins can be easly created by extending some class :
 - [Items](wiki/ItemPlugin)
 - [Part drag](wiki/PartDragPlugin)
 - [Code exemples](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
