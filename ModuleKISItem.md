@@ -1,6 +1,6 @@
 #### `ModuleKISItem`
 
-This module will allow a part using the module `KASModuleGrab` to be mounted in. 
+This module will add item specific parameters to any part 
 
 Sample module configuration (exemple) :
 ```
