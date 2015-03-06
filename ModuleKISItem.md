@@ -40,7 +40,7 @@ MODULE
 - `equipable`: Set if the item can be equipped
 - `equipMode`: Can be "model" or "physic". "model" will only show the item model on equip and "physic" will attach the part to the kerbal Eva (please note that this last option is pretty buggy and the part will not follow Kerbal bones correctly)
 - `equipSlot`: Can be any text. Right now some name are reserved lile 'rightHand' will allow the item to be used with the [x] key.
-- `equipTrait`: Restrict equip to a kerbal trait. Can be "engineer", "scientist" or "pilot". Blank set to no restriction. Other trait name are also supported if they are added to the game.
+- `equipTrait`: Restrict equip to a kerbal trait. Can be "engineer", "scientist" or "pilot". Leave blank set to no restriction. Other trait name are also supported if they are added to the game.
 - `equipRemoveHelmet`: If set to true helmet will be removed on equip
 - `equipMeshName`: Name of the mesh used to set the equip position of the item (use item debug tool to find names)
 - `equipBoneName`: Name of the bone used to set the equip position of the item (use item debug tool to find names)
