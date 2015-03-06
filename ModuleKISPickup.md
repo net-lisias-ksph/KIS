@@ -17,10 +17,10 @@ MODULE
 }
 ```
 
-- `canDetach`: 
-- `detachMaxMass`:
-- `maxDistance`: 
-- `maxMass`: 
-- `dropSndPath`: 
-- `attachSndPath`: 
-- `detachSndPath`: 
+- `canDetach`: Allow detachment of part attached. 
+- `detachMaxMass`: Maximum mass detachable.
+- `maxDistance`: Maximum range of grab.
+- `maxMass`: Maximum movable part mass.
+- `dropSndPath`: Drop sound path.
+- `attachSndPath`: Attach sound path.
+- `detachSndPath`: Detach sound path.
