@@ -83,7 +83,7 @@ StackableItemOverride
 - `draggedIconResolution`: Icon resolution of the part dragged
 
 ###### `StackableModule`
-- `moduleName`: 
+- `moduleName`: Name of the stackable module. Used to determine module without any "state" saved. Part with no stackable module are set non-stackable. Part without any module are stackable by default. Can be repeated for multiple module.
 
 ###### `StackableItemOverride`
-- `partName`: 
+- `partName`: Name of the stackable part. Used to force a part to be stackable. Can be repeated for multiple parts.
