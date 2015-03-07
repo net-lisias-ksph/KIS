@@ -18,13 +18,15 @@ KIS exposes part modules which can be used by other mods :
 KIS plugins can be easly created by extending some class :
 - [ModuleKISItem](wiki/ItemPlugin)
 - [ModuleKISPartDrag](wiki/PartDragPlugin)
-- [Exemple : ModuleKISItemFood](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
-- [Exemple : ModuleKISItemSoundPlayer](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
-- [Exemple : ModuleKISItemBook](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
 
 With the 'KIS_Item' class reference, some KIS specific methods & variables are available :
 - [KIS_Item](wiki/ItemRef)
 - [ModuleKISInventory](wiki/InventoryRef)
+
+Exemples of an item plugin :
+- [ModuleKISItemFood](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
+- [ModuleKISItemSoundPlayer](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
+- [ModuleKISItemBook](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
 
 ## Reference
 - [Version history](wiki/Changelog)
