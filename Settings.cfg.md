@@ -56,4 +56,5 @@ StackableItemOverride
 }
 ```
 
+# `Global node`
 - `itemDebug`: Enable/disable the debug tool to configure an item ingame (usefull to set position of the item on the kerbal). To use it open the context menu of an item and click "debug".
