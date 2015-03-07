@@ -71,18 +71,17 @@ StackableItemOverride
 - `openSndPath`: Open sound path of the inventory
 - `closeSndPath`: Close sound path of the inventory
 
+###### `EvaPickup`
+- `grabKey`: Shortcut key to grab
+- `canDetach`: Ability to grab attached part
+- `maxDistance`: Maximum grab and move distance
+- `maxMass`: Maximum mass of a Kerbal can lift
+- `dropSndPath`: Drop sound path
+- `attachSndPath`: Attach sound path
+- `draggedIconResolution`: Icon resolution of the part dragged
 
+###### `StackableModule`
+- `moduleName`: 
 
-
-
-
-
-
-
-Ability to grab attached part without a tool
-Distance limit to grab parts
-How much weight a Kerbal can lift (default = 1 tonne).
-
-
-
-Show/hide debug button for items
+###### `StackableItemOverride`
+- `partName`: 
