@@ -61,18 +61,21 @@ StackableItemOverride
 
 ###### `EvaInventory`
 - `inventoryKey`: Shortcut key to open the current EVA inventory.
-- `rightHandKey`: 
-- `slotsX`: 
-- `slotsY`: 
-- `slotSize `: 
-- `slotSize `: 
-- `slotSize `: 
+- `rightHandKey`: Shortcut key to use the current item in the right hand.
+- `slotsX`: Number of horizontal slots in the EVA inventory
+- `slotsY`: Number of vertical slots in the EVA inventory
+- `slotSize`: Size of the slots
+- `itemIconResolution`: Resolution of the item's slot icon
+- `selfIconResolution`: Resolution of the kerbal's icon
+- `maxVolume`: Maximum volume of the EVA inventory
+- `openSndPath`: Open sound path of the inventory
+- `closeSndPath`: Close sound path of the inventory
 
-Number of slots in the EVA inventory in width
-Number of slots in the EVA inventory in height
-Size of the slots (50px)
-Size of inventory part icons
-Volume of EVA invetory
+
+
+
+
+
 
 
 
