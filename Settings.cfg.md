@@ -1,6 +1,6 @@
 #### `KIS configuration`
 
-You can edit the settings.cfg file in the KIS folder to configuration
+You can edit the settings.cfg file in the KIS folder to configure the mod : 
 
 ```
 Global
