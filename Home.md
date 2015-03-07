@@ -22,6 +22,9 @@ KIS plugins can be easly created by extending some class :
 - [Exemple : ModuleKISItemSoundPlayer](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
 - [Exemple : ModuleKISItemBook](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
 
+With the 'KIS_Item' class reference, you can access to some item and inventory methods :
+- [ModuleKISInventory](wiki/ItemPlugin)
+- [KIS_Item](wiki/ItemPlugin)
 
 ## Reference
 - [Version history](wiki/Changelog)
