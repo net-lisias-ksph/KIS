@@ -1,3 +1,4 @@
 - Item drag from part list to inventory in editor can be stuck after loading a vessel (click on the inventory UI to fix the problem)
 - Kerbal inventory portrait is missing after going on the map (save/load to fix)
 - Engines attached to a vessel can flameout in some configuration (fuel flow issue). We are waiting the new fuel flow system in KSP 1.0 to see what can be done.
+- Some small parts dropped can go throught the ground and fall. Unfortunatly this a KSP problem, nothing I can really do. 
