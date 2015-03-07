@@ -23,7 +23,7 @@ EvaInventory
 EvaPickup
 {
 	grabKey = g
-        canDetach = false
+	canDetach = false
 	maxDistance = 2
 	maxMass = 1
 	dropSndPath = KIS/Sounds/drop
