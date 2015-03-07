@@ -20,10 +20,6 @@ KIS plugins can be easly created by extending some class :
 - [ModuleKISItem](wiki/ItemPlugin)
 - [ModuleKISPartDrag](wiki/PartDragPlugin)
 
-With the 'KIS_Item' class reference, some KIS specific methods & variables are available :
-- [KIS_Item](wiki/ItemRef)
-- [ModuleKISInventory](wiki/InventoryRef)
-
 Exemples of an item plugin :
 - [ModuleKISItemFood](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
 - [ModuleKISItemSoundPlayer](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
