@@ -61,3 +61,25 @@ StackableItemOverride
 
 ###### `EvaInventory`
 - `inventoryKey`: Shortcut key to open the current EVA inventory.
+- `rightHandKey`: 
+- `slotsX`: 
+- `slotsY`: 
+- `slotSize `: 
+- `slotSize `: 
+- `slotSize `: 
+
+Number of slots in the EVA inventory in width
+Number of slots in the EVA inventory in height
+Size of the slots (50px)
+Size of inventory part icons
+Volume of EVA invetory
+
+
+
+Ability to grab attached part without a tool
+Distance limit to grab parts
+How much weight a Kerbal can lift (default = 1 tonne).
+
+
+
+Show/hide debug button for items
