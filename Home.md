@@ -21,9 +21,9 @@ KIS plugins can be easly created by extending some class :
 - [ModuleKISPartDrag](wiki/PartDragPlugin)
 
 Exemples of an item plugin :
-- [ModuleKISItemFood](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
-- [ModuleKISItemSoundPlayer](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
-- [ModuleKISItemBook](https://github.com/KospY/KIS/blob/master/codeexemple.pdf)
+- [ModuleKISItemFood](https://github.com/KospY/KIS/blob/master/Plugins/Source/ModuleKISItemFood.cs)
+- [ModuleKISItemSoundPlayer](https://github.com/KospY/KIS/blob/master/Plugins/Source/ModuleKISItemSoundPlayer.cs)
+- [ModuleKISItemBook](https://github.com/KospY/KIS/blob/master/Plugins/Source/ModuleKISItemBook.cs)
 
 ## Reference
 - [Version history](wiki/Changelog)
