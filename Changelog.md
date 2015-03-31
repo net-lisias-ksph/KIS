@@ -1,4 +1,4 @@
-### 1.0.1 (Soon)
+### 1.0.1 (31 March, 2015)
 - Change volume unit from M3 to L
 - Check kerbal skill instead of trait name for tools
 - Added default kerbal mass parameter in settings.cfg
@@ -16,5 +16,5 @@
 - Fix exception thrown after loading
 - Fix exception thrown when using release on empty mount
 
-### 1.0.0 (14 Mars 2015)
+### 1.0.0 (14 March, 2015)
 - Initial release
