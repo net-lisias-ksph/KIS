@@ -3,7 +3,7 @@
 - Check kerbal skill instead of trait name for tools
 - Added default kerbal mass parameter in settings.cfg
 - Disable drag for greyed parts in the editor to prevent storing them without bought them from research in hard mode
-- Add decimals to maxVolume
+- Add decimals to maxVolume for the inventory module tooltip
 - Prevent a part to be mounted on itself
 - Fix grab not working in some specific situations
 - Fix crash when dragging a container from a mount to another mount
