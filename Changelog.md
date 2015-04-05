@@ -1,3 +1,6 @@
+### 1.0.2 (5 April, 2015)
+- Fix wrong mass calculation for part with resources 
+
 ### 1.0.1 (31 March, 2015)
 - Change volume unit from M3 to L
 - Check kerbal skill instead of trait name for tools
