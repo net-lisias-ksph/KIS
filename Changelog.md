@@ -1,3 +1,15 @@
+### 1.1.0 (Not released yet)
+- Added inline 2.5m container (20 000L)
+- Small containers can now be carried on kerbal's back (but kerbal speed is limited on ground)
+- Allow part from editor scene to be dragged in inventory (for tweaking them before storing them)
+- Added stack snapping (electric screwdriver only)
+- Disable surface attach for stack part nodes
+- Added part snapping on mount (removed "item drag to mount" behaviour)
+- Added multiple node support for PartMount module  
+- Added a item module to tweak some kerbal eva parameters when item is equipped (for modding)
+- Prevent storing container in itself
+- Fix item icon not returning to default rotation 
+
 ### 1.0.2 (5 April, 2015)
 - Fix wrong mass calculation for part with resources 
 
