@@ -7,6 +7,7 @@
 - Added part snapping on mount (removed "item drag to mount" behaviour)
 - Added multiple node support for PartMount module  
 - Added a item module to tweak some kerbal parameters when item is equipped (for modding)
+- Show resources, cost and mass for stored containers 
 - Prevent storing container in itself
 - Fix item icon not returning to default rotation 
 
