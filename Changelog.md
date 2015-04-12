@@ -1,7 +1,7 @@
 ### 1.1.0 (Not released yet)
 - Added inline 2.5m container (20 000L)
 - Small containers can now be carried on kerbal's back (but kerbal speed is limited on ground)
-- Allow part from editor scene to be dragged in inventory (for tweaking them before storing them)
+- Allow part from editor scene to be dragged to inventory (for tweaking them before storing them)
 - Added stack snapping (electric screwdriver only)
 - Disable surface attach for stack part nodes
 - Added part snapping on mount (removed "item drag to mount" behaviour)
