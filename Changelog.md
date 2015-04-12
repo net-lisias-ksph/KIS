@@ -6,7 +6,7 @@
 - Disable surface attach for stack part nodes
 - Added part snapping on mount (removed "item drag to mount" behaviour)
 - Added multiple node support for PartMount module  
-- Added a item module to tweak some kerbal eva parameters when item is equipped (for modding)
+- Added a item module to tweak some kerbal parameters when item is equipped (for modding)
 - Prevent storing container in itself
 - Fix item icon not returning to default rotation 
 
