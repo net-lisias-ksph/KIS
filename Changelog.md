@@ -11,7 +11,7 @@
 - Increased grab range to 3 meters in settings.cfg
 - "Open inventory" context menu max distance now use the grab distance from settings.cfg
 - Current attach node is now displayed on the cursor
-- Remove a double when changing attach node
+- Removed a double when changing attach node
 - Show resources, cost and mass for stored containers 
 - Prevent storing a container in itself
 - Prevent attaching a part on itself
