@@ -1,7 +1,7 @@
 ### 1.1.0 (WIP - Not released yet)
 - Added part : 2.5m inline container (20 000L)
 - Added part : Ground anchor (like Pylon in KAS)
-- Added snapping on stack nodes (electric screwdriver only)
+- Added snapping on stack nodes (with electric screwdriver only)
 - Added container snapping on mount (removed "item drag to mount" behaviour)
 - Small containers can now be carried on kerbal's back (but kerbal speed is limited on ground)
 - Allow part from editor scene to be dragged to inventory (for tweaking them before storing them)
