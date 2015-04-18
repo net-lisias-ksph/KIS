@@ -14,6 +14,7 @@
 - Current attach node is now displayed on the cursor
 - Removed a double when changing attach node
 - Show resources, cost and mass for stored containers 
+- Disabled editor set quantity item context menu when part is not stackable 
 - Prevent storing a container in itself
 - Prevent attaching a part on itself
 - Fix a crash when trying to store a command pod from the editor
