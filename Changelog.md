@@ -6,8 +6,9 @@
 - Small containers can now be carried on kerbal's back (but kerbal speed is limited on ground)
 - Allow part from editor scene to be dragged to inventory (for tweaking them before storing them)
 - Added multiple node support for PartMount module  
-- Added a item module to tweak some kerbal parameters when item is equipped (for modding)
 - Added TweakScale compatibility
+- Added ability to name container
+- Added a item module to tweak some kerbal parameters when item is equipped (for modding)
 - Disabled surface attach for stack part nodes
 - Disabled surface attach for part not allowing it
 - Increased grab range to 3 meters in settings.cfg
