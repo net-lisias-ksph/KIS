@@ -19,8 +19,9 @@
 - Disabled editor set quantity item context menu when part is not stackable 
 - Prevent storing a container in itself
 - Prevent attaching a part on itself
-- Fix a crash when trying to store a command pod from the editor
-- Fix item icon not returning to default rotation 
+- Fixed incorrect checking of volume available when stacking in the same inventory 
+- Fixed a crash when trying to store a command pod from the editor
+- Fixed item icon not returning to default rotation 
 
 ### 1.0.2 (5 April, 2015)
 - Fix wrong mass calculation for part with resources 
