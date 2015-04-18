@@ -1,27 +1,27 @@
 ### 1.1.0 (WIP - Not released yet)
-- Added part : 2.5m inline container (20 000L)
-- Added part : Ground anchor (like Pylon in KAS)
-- Added snapping on stack nodes (with electric screwdriver only)
-- Added container snapping on mount (removed "item drag to mount" behaviour)
-- Small containers can now be carried on kerbal's back (but kerbal speed is limited on ground)
-- Allow part from editor scene to be dragged to inventory (for tweaking them before storing them)
-- Added multiple node support for PartMount module  
-- Added TweakScale compatibility
-- Added ability to name container
-- Added a item module to tweak some kerbal parameters when item is equipped (for modding)
-- Disabled surface attach for stack part nodes
-- Disabled surface attach for part not allowing it
-- Increased grab range to 3 meters in settings.cfg
-- "Open inventory" context menu max distance now use the grab distance from settings.cfg
-- Current attach node is now displayed on the cursor
-- Removed a double when changing attach node
-- Show resources, cost and mass for stored containers 
-- Disabled editor set quantity item context menu when part is not stackable 
-- Prevent storing a container in itself
-- Prevent attaching a part on itself
-- Fixed incorrect checking of volume available when stacking in the same inventory 
-- Fixed a crash when trying to store a command pod from the editor
-- Fixed item icon not returning to default rotation 
+- [Feature] 2.5m inline container (20 000L)
+- [Feature] Ground anchor (like Pylon in KAS)
+- [Feature] Part snapping on stack nodes (electric screwdriver only)
+- [Feature] Containers snapping on mount (removed "item drag to mount" behaviour)
+- [Feature] Small containers can now be carried on kerbal's back (but kerbal speed is limited on ground)
+- [Feature] Allow part from editor scene to be dragged to inventory (for tweaking them before storing them)
+- [Feature] Added multiple node support for PartMount module  
+- [Feature] Added TweakScale compatibility
+- [Feature] Added ability to name container
+- [Feature] New item module to tweak some kerbal parameters when item is equipped (for modding)
+- [Change] Disabled surface attach for stack part nodes
+- [Change] Disabled surface attach for part not allowing it
+- [Change] Increased grab range to 3 meters in settings.cfg
+- [Change] "Open inventory" context menu max distance now use the grab distance from settings.cfg
+- [Change] Current attach node is now displayed on the cursor
+- [Change] Show resources, cost and mass for stored containers 
+- [Change] Disabled editor set quantity item context menu when part is not stackable 
+- [Fix] Fixed a crash when trying to store a command pod from the editor
+- [Fix] Fixed item icon not returning to default rotation 
+- [Fix] Removed a double when changing attach node
+- [Fix] Prevent storing a container in itself
+- [Fix] Prevent attaching a part on itself
+- [Fix] Fixed incorrect checking of volume available when stacking in the same inventory 
 
 ### 1.0.2 (5 April, 2015)
 - Fix wrong mass calculation for part with resources 
