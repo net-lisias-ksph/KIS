@@ -7,7 +7,7 @@
 - [Feature] Allow part from editor scene to be dragged to inventory (for tweaking them before storing them)
 - [Feature] Added multiple node support for PartMount module  
 - [Feature] Added TweakScale compatibility
-- [Feature] Added ability to name container
+- [Feature] Added ability to name containers
 - [Feature] Added ability to set equip to "model"(default), "part" or "physic" in ModuleKISItem
 - [Feature] New item module to tweak some kerbal parameters when item is equipped (for modding)
 - [Change] Disabled surface attach for stack part nodes
