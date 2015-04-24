@@ -8,6 +8,7 @@
 - [Feature] Added multiple node support for PartMount module  
 - [Feature] Added TweakScale compatibility
 - [Feature] Added ability to name containers
+- [Feature] Added a button in the kerbal inventory to put/remove helmet
 - [Feature] Added ability to set equip to "model"(default), "part" or "physic" in ModuleKISItem
 - [Feature] New item module to tweak some kerbal parameters when item is equipped (for modding)
 - [Change] Disabled surface attach for stack part nodes
@@ -15,7 +16,8 @@
 - [Change] Increased grab range to 3 meters in settings.cfg
 - [Change] "Open inventory" context menu max distance now use the grab distance from settings.cfg
 - [Change] Current attach node is now displayed on the cursor
-- [Change] Show resources, cost and mass for stored containers 
+- [Change] Show science data of items
+- [Change] Show resources, cost, mass and science data for stored containers 
 - [Change] Disabled editor set quantity item context menu when part is not stackable 
 - [Fix] Fixed a crash when trying to store a command pod from the editor
 - [Fix] Fixed item icon not returning to default rotation 
