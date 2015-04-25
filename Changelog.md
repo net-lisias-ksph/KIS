@@ -19,7 +19,8 @@
 - [Change] Show science data of items
 - [Change] Reduced the number of slots of the small container
 - [Change] Show resources, cost, mass and science data for stored containers 
-- [Change] Disabled editor set quantity item context menu when part is not stackable 
+- [Change] Disabled editor set quantity item context menu when part is not stackable
+- [Change] Settings.cfg file is now loaded as a confignode (allow module manager to add partModules to the Stackable list)
 - [Fix] Fixed a crash when trying to store a command pod from the editor
 - [Fix] Fixed item icon not returning to default rotation 
 - [Fix] Prevent a crash if an item is added in the same slot on loading 
