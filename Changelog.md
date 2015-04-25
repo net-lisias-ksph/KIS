@@ -24,6 +24,7 @@
 - [Fix] Fixed a crash when trying to store a command pod from the editor
 - [Fix] Fixed item icon not returning to default rotation 
 - [Fix] Prevent a crash if an item is added in the same slot on loading 
+- [Fix] Re-arrange inventories when size is changed
 - [Fix] Removed a double when changing attach node
 - [Fix] Prevent storing a container in itself
 - [Fix] Prevent attaching a part on itself
