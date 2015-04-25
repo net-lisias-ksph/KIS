@@ -17,10 +17,12 @@
 - [Change] "Open inventory" context menu max distance now use the grab distance from settings.cfg
 - [Change] Current attach node is now displayed on the cursor
 - [Change] Show science data of items
+- [Change] Reduced the number of slots of the small container
 - [Change] Show resources, cost, mass and science data for stored containers 
 - [Change] Disabled editor set quantity item context menu when part is not stackable 
 - [Fix] Fixed a crash when trying to store a command pod from the editor
 - [Fix] Fixed item icon not returning to default rotation 
+- [Fix] Prevent a crash if an item is added in the same slot on loading 
 - [Fix] Removed a double when changing attach node
 - [Fix] Prevent storing a container in itself
 - [Fix] Prevent attaching a part on itself
