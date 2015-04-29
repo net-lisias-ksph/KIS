@@ -1,4 +1,4 @@
-### 1.1.0 (WIP - Not released yet)
+### 1.1.0 (30 April, 2015)
 - KSP 1.0 Compatibility
 - [New Part] 2.5m inline container (20 000L)
 - [New Part] Ground base (similar to KAS Pylon)
