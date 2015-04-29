@@ -12,17 +12,17 @@
 - [Feature] Added a button in the kerbal inventory to put/remove helmet
 - [Feature] Added ability to set equip to "model"(default), "part" or "physic" in ModuleKISItem
 - [Feature] New item module to tweak some kerbal parameters when item is equipped (for modding)
+- [Feature] Current attach node is now displayed on the cursor
+- [Feature] Show science data of stored items
+- [Feature] Settings.cfg file is now loaded as a confignode (allow module manager to add partModules to the Stackable list)
+- [Feature] Show content resources, cost, mass and science data for stored containers
 - [Change] Disabled surface attach for stack part nodes
 - [Change] Disabled surface attach for part not allowing it
 - [Change] Increased default grab range to 3 meters
 - [Change] Part cost, mass and r&d updated for KSP 1.0
-- [Change] "Open inventory" context menu max distance now use the grab distance from settings.cfg
-- [Change] Current attach node is now displayed on the cursor
-- [Change] Show science data of items
 - [Change] Reduced the number of slots of the small container
-- [Change] Show resources, cost, mass and science data for stored containers 
-- [Change] Disabled editor set quantity item context menu when part is not stackable
-- [Change] Settings.cfg file is now loaded as a confignode (allow module manager to add partModules to the Stackable list)
+- [Fix] "Open inventory" context menu max distance now use the grab distance from settings.cfg
+- [Fix] Disabled editor set quantity item context menu when part is not stackable
 - [Fix] Fixed a crash when trying to store a command pod from the editor
 - [Fix] Fixed item icon not returning to default rotation 
 - [Fix] Prevent a crash if an item is added in the same slot on loading 
@@ -30,7 +30,7 @@
 - [Fix] Removed a double when changing attach node
 - [Fix] Prevent storing a container in itself
 - [Fix] Prevent attaching a part on itself
-- [Fix] Fixed incorrect checking of volume available when stacking in the same inventory 
+- [Fix] Fixed incorrect checking of volume available when stacking in the same inventory
 
 ### 1.0.2 (5 April, 2015)
 - Fix wrong mass calculation for part with resources 
