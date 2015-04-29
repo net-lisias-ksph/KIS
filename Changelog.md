@@ -14,7 +14,7 @@
 - [Feature] New item module to tweak some kerbal parameters when item is equipped (for modding)
 - [Change] Disabled surface attach for stack part nodes
 - [Change] Disabled surface attach for part not allowing it
-- [Change] Increased grab range to 3 meters in settings.cfg
+- [Change] Increased default grab range to 3 meters
 - [Change] Part cost, mass and r&d updated for KSP 1.0
 - [Change] "Open inventory" context menu max distance now use the grab distance from settings.cfg
 - [Change] Current attach node is now displayed on the cursor
