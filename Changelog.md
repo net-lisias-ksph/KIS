@@ -1,7 +1,7 @@
 ### 1.1.0 (WIP - Not released yet)
 - KSP 1.0 Compatibility
-- [Feature] 2.5m inline container (20 000L)
-- [Feature] Ground anchor (like Pylon in KAS)
+- [New Part] 2.5m inline container (20 000L)
+- [New Part] Ground base (similar to KAS Pylon)
 - [Feature] Part snapping on stack nodes (electric screwdriver only)
 - [Feature] Containers snapping on mount (removed "item drag to mount" behaviour)
 - [Feature] Small containers can now be carried on kerbal's back (but kerbal speed is limited on ground)
