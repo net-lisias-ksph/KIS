@@ -8,6 +8,8 @@ Welcome to the KIS wiki !
 
 ## Modding
 
+EDIT : Not updated for KIS 1.1 yet
+
 ### Config files
 KIS exposes part modules which can be used by other mods :
 - [ModuleKISInventory](wiki/ModuleKISInventory)
