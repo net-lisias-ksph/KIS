@@ -67,7 +67,7 @@ KISConfig
 ###### `Global`
 - `itemDebug`: Enable/disable the debug tool to configure an item ingame (usefull to set position of the item on the kerbal). To use it open the context menu of an item and click "debug".
 - `kerbalDefaultMass` : Set the kerbal default mass.
-- `breathableAtmoPressure` = Set pressure needed to allow kerbal to remove helmet (planet with oxygen only).
+- `breathableAtmoPressure` : Set pressure needed to allow kerbal to remove helmet (planet with oxygen only).
 
 ###### `EvaInventory`
 - `inventoryKey`: Shortcut key to open the current EVA inventory.
