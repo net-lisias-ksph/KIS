@@ -18,6 +18,8 @@ MODULE
 	openSndPath = KIS/Sounds/containerOpen
 	closeSndPath = KIS/Sounds/containerClose
 	defaultMoveSndPath = KIS/Sounds/itemMove
+        helmetOnSndPath = KIS/Sounds/helmetOn
+        helmetOffSndPath = KIS/Sounds/helmetOff
 }
 ```
 
@@ -32,3 +34,5 @@ MODULE
 - `openSndPath`: Open sound path of the inventory
 - `closeSndPath`: Close sound path of the inventory
 - `defaultMoveSndPath`: Default move sound path of items in the inventory
+- `helmetOnSndPath`: Put on helmet sound path (kerbal only)
+- `helmetOffSndPath`: Remove helmet sound path (kerbal only)
