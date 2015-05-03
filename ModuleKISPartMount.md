@@ -4,18 +4,22 @@ This module allow the part to be a mount for other parts by using drag and drop 
 
 Sample module configuration with the default values :
 ```
-MODULE
-{
-	name = ModuleKISPartMount
-	bayNodeName = top
-	allowRelease = true
-	allowedPartName = xxx
-	allowedPartName = xxx...
-	sndStorePath = KIS/Sounds/containerMount
-}
+	MODULE
+	{
+		name = ModuleKISPartMount
+		sndStorePath = KIS/Sounds/containerMount
+		allowRelease = true
+		MOUNT
+		{
+			attachNode = top
+			allowedPartName= KIS_Container1
+			allowedPartName= KIS_Container2
+		}
+	}
 ```
 
-- `bayNodeName`: Name of the attach node used to determine the position and rotation of the mounted part.
-- `allowRelease`: Allow mounted part to be released from context menu or action group.
-- `allowedPartName`: Part name of the part allowed on the mount. Can be repeated for multiple parts.
 - `sndStorePath`: Mount sound path
+- `allowRelease`: Allow mounted part to be released from context menu or action group.
+- `attachNode`: Name of the attach node used to determine the position and rotation of the mounted part.
+- `allowedPartName`: Part name of the part allowed on the mount. Can be repeated for multiple parts.
+- MOUNT: This node can be added several times if needed, each "MOUNT" add a mounting node on the part.
