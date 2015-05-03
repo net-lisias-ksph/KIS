@@ -42,7 +42,10 @@ MODULE
 - `editorItemsCategory`: Set if the item is displayed in the EVA items category in the editor
 - `moveSndPath`: Item move sound path
 - `equipable`: Set if the item can be equipped
-- `equipMode`: Can be "model" or "physic". "model" will only show the item model on equip and "physic" will attach the part to the kerbal Eva (please note that this last option is pretty buggy and the part will not follow Kerbal bones correctly)
+- `equipMode`: Can be "model", "part" or "physic". 
+"model" will only show the item model on equip. 
+"part" will spawn the part (without rigidbody however) and attach it to the kerbal (so the part modules will run normally).
+"physic" will spawn and "attach" physically the part to the kerbal Eva (but it will make the eva RCS not working correctly in space and the part will not follow Kerbal bones).
 - `equipSlot`: Can be any text. Right now some name are reserved lile 'rightHand' will allow the item to be used with the [x] key.
 - `equipTrait`: Restrict equip to a kerbal trait. Can be "engineer", "scientist" or "pilot". Leave blank set to no restriction. Other trait name are also supported if they are added to the game.
 - `equipRemoveHelmet`: If set to true helmet will be removed on equip
