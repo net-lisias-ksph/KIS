@@ -20,12 +20,14 @@ MODULE
         equipable = false
         equipMode = model
         equipSlot = <null>
-        equipTrait = <null>
+        equipSkill = <null>
         equipRemoveHelmet = false
         equipMeshName = helmet
         equipBoneName = helmet01
         equipPos = (0, 0, 0)
         equipDir = (0, 0, 0)
+        carriable = false
+        allowAttachOnStatic = false
 }
 ```
 
