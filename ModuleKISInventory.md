@@ -18,6 +18,8 @@ MODULE
 	openSndPath = KIS/Sounds/containerOpen
 	closeSndPath = KIS/Sounds/containerClose
 	defaultMoveSndPath = KIS/Sounds/itemMove
+	defaultMoveSndPath = KIS/Sounds/itemMove
+	defaultMoveSndPath = KIS/Sounds/itemMove
         helmetOnSndPath = KIS/Sounds/helmetOn
         helmetOffSndPath = KIS/Sounds/helmetOff
 }
