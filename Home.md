@@ -6,7 +6,7 @@ Welcome to the KIS wiki !
 - [Settings](wiki/Settings.cfg)
 - [Known issues](wiki/Known issues)
 
-## Modding - KIS 1.0 (1.1 soon)
+## Modding - KIS 1.1
 
 ### Config files
 KIS exposes part modules which can be used by other mods :
