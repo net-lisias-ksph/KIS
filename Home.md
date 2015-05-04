@@ -14,6 +14,7 @@ KIS exposes part modules which can be used by other mods :
 - [ModuleKISItem](wiki/ModuleKISItem)
 - [ModuleKISPartMount](wiki/ModuleKISPartMount)
 - [ModuleKISPickup](wiki/ModuleKISPickup)
+- [ModuleKISItemEvaTweaker](wiki/ModuleKISItemEvaTweaker)
 
 ### Plugins
 KIS plugins can be easly created by extending some class :
