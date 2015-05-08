@@ -3,10 +3,11 @@
 - [Feature] Add "mountedPartNode" parameter in module "ModuleKISPartMount" to set the part node used on mount
 - [Feature] Allow mount to be set on a moving attach node (KAS compatibility)
 - [Feature] Send messages on part drop/attach (KAS compatibility)
-- [Fix] Fix velocity reset on part creation in space 
+- [Fix] Fix velocity reset on part creation in space
 - [Fix] Prevent part node to be changed on mount
 - [Fix] Prevent KIS dll reference error after recompile
 - [Fix] Ingame user guide updated to 1.1
+- [Fix] Some spelling fixes
 - [Change] Move KIS static item module to part module
 - [Change] Allow carried container to be used 
 
