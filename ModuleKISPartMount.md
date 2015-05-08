@@ -7,6 +7,7 @@ Sample module configuration with the default values :
 	MODULE
 	{
 		name = ModuleKISPartMount
+                mountedPartNode = bottom
 		sndStorePath = KIS/Sounds/containerMount
 		allowRelease = true
 		MOUNT
@@ -18,8 +19,9 @@ Sample module configuration with the default values :
 	}
 ```
 
+- `mountedPartNode` : Attach node used on the part mounted 
 - `sndStorePath`: Mount sound path
 - `allowRelease`: Allow mounted part to be released from context menu or action group.
-- `attachNode`: Name of the attach node used to determine the position and rotation of the mounted part.
+- `attachNode`: Name of the attach node used on the current part to determine the position and rotation of the mounted part.
 - `allowedPartName`: Part name of the part allowed on the mount. Can be repeated for multiple parts.
 - MOUNT: This node can be added several times if needed, each "MOUNT" add a mounting node on the part.
