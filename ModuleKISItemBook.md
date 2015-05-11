@@ -22,4 +22,4 @@ MODULE
 - `bookOpenSndPath`: Change opening book sound.
 - `bookPageSndPath`: Change previous/next page sound.
 - `bookCloseSndPath`: Change closing book sound.
-- `page`: Path of the image to use for the page. Can be repeated. Pages will be sorted in the stated order.
+- `page`: Path of the page image. Can be repeated. Pages will be sorted in the stated order.
