@@ -7,12 +7,12 @@ Sample module configuration with the default values :
 MODULE
 {
 	name = ModuleKISItemBook
-        pageWidth = 800
-        pageHeight = 800
-        bookOpenSndPath = KIS/Sounds/bookOpen
-        bookPageSndPath = KIS/Sounds/bookPage
-        bookCloseSndPath = KIS/Sounds/bookClose
-        page = KIS/Parts/guide/page01
+	pageWidth = 800
+	pageHeight = 800
+	bookOpenSndPath = KIS/Sounds/bookOpen
+	bookPageSndPath = KIS/Sounds/bookPage
+	bookCloseSndPath = KIS/Sounds/bookClose
+	page = KIS/Parts/guide/page01
 	page = KIS/Parts/guide/page02
 }
 ```
