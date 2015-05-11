@@ -2,7 +2,7 @@
 
 Allow an item to be used like a book.
 
-Sample module configuration with the default values :
+Sample module configuration :
 ```
 MODULE
 {
