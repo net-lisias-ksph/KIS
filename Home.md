@@ -31,5 +31,5 @@ Exemples of an item plugin :
 - [License](https://github.com/KospY/KIS/blob/master/LICENSE.md)
 
 ## See Also
-- [Bug Reporting Guidelines](wiki/Bug Reporting)
+- [Bug Reporting Guidelines](https://github.com/KospY/KIS/blob/master/CONTRIBUTING.md)
 - [Forum Thread](//)
