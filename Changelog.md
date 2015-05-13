@@ -1,3 +1,13 @@
+### 1.1.3 (14 May, 2015)
+- [Fix] fix explosion after moving/attaching a part (hopefully)
+- [Fix] Prevent equipped part to explode after loading (when using equipmode = part)
+- [Fix] Prevent item to be carried even if no slot is available
+- [Fix] Explosive now show up in the left hand according to the equip slot
+- [Fix] Prevent unequipping when dragging an item on another
+- [Fix] Eva propellant will now remove resource from the equipped part (when using equipmode = part)
+- [Change] Created a SendKISMessage method (to communicate with KAS or other mods)
+- [Change] Guide and wrench item moved to engineering101 tech node 
+
 ### 1.1.2 (8 May, 2015)
 - Compatibility fix for KSP 1.0.2
 - [Feature] Add "mountedPartNode" parameter in module "ModuleKISPartMount" to set the part node used on mount
