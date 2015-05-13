@@ -5,8 +5,8 @@
 - [Fix] Explosive now show up in the left hand according to the equip slot
 - [Fix] Prevent unequipping when dragging an item on another
 - [Fix] Eva propellant will now remove resource from the equipped part (when using equipmode = part)
-- [Change] Created a SendKISMessage method (to communicate with KAS or other mods)
 - [Change] Guide and wrench item moved to engineering101 tech node 
+- [Change] Created a SendKISMessage method (to communicate with KAS or other mods)
 
 ### 1.1.2 (8 May, 2015)
 - Compatibility fix for KSP 1.0.2
