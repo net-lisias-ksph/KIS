@@ -1,3 +1,6 @@
+### 1.1.4 (14 May, 2015)
+- [Fix] fix delayed ship explosion after attaching parts from inventory in deep space 
+
 ### 1.1.3 (14 May, 2015)
 - [Fix] fix explosion after moving/attaching a part (hopefully)
 - [Fix] Prevent equipped part to explode after loading (when using equipmode = part)
