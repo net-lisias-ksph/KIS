@@ -28,7 +28,7 @@ Exemples of an item plugin :
 - [ModuleKISItemBook](https://github.com/KospY/KIS/blob/master/Plugins/Source/ModuleKISItemBook.cs)
 
 ## Reference
-- [Version history](wiki/Changelog)
+- [Version history](https://github.com/KospY/KIS/blob/master/changelog.md)
 - [License](https://github.com/KospY/KIS/blob/master/LICENSE.md)
 
 ## See Also
