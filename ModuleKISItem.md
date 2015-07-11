@@ -27,7 +27,8 @@ MODULE
         equipPos = (0, 0, 0)
         equipDir = (0, 0, 0)
         carriable = false
-        allowAttachOnStatic = false
+        allowPartAttach = 2    
+        allowStaticAttach = 0
 }
 ```
 
