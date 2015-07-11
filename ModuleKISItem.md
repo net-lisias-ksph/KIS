@@ -52,4 +52,5 @@ MODULE
 - `equipPos`: Relative position of the item once equipped
 - `equipDir`: Relative rotation of the item once equipped
 - `carriable`: Allow the part to be carried by a kerbal. Carriable item use the 'equipSlot' parameter to check if the slot is used (it's possible to carry multiple item using different slot name).
-- `allowAttachOnStatic`: Allow the item to be attached on the ground with a tool (screwdriver or wrench). 'ModuleKISItem' module will send a message (part 'SendMessage' method) to the part attached.
+- `allowPartAttach`: Allow the item to be attached on another part or not. 0=false,  1=true, 2=An attach tool will be needed
+- `allowStaticAttach`: Allow the item to be attached on the ground or not. 0=false,  1=true, 2=An attach tool will be needed
