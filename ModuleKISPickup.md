@@ -7,20 +7,26 @@ Sample module configuration with the default values :
 MODULE
 {
 	name = ModuleKISPickup
-	canDetach = false
-	detachMaxMass = infinity
+	allowPartAttach = true
+	allowStaticAttach = false
+	allowPartStack = false
 	maxDistance = 2
-	maxMass = 1
+	grabMaxMass = 1
 	dropSndPath = KIS/Sounds/drop
-	attachSndPath = KIS/Sounds/attach
-	detachSndPath = KIS/Sounds/detach
+	attachPartSndPath = KIS/Sounds/attachPart
+	detachPartSndPath= KIS/Sounds/detachPart
+	attachStaticSndPath= KIS/Sounds/attachStatic
+	detachStaticSndPath= KIS/Sounds/detachStatic
 }
 ```
 
-- `canDetach`: Allow detachment of part attached. 
-- `detachMaxMass`: Maximum mass detachable.
+- `allowPartAttach`: Allow attach/detach of part on another part. 
+- `allowStaticAttach`: Allow attach/detach of part on the ground. 
+- `allowPartStack`: Allow part stack.
 - `maxDistance`: Maximum range of grab.
-- `maxMass`: Maximum movable part mass.
+- `grabMaxMass`: Maximum movable part mass.
 - `dropSndPath`: Drop sound path.
-- `attachSndPath`: Attach sound path.
-- `detachSndPath`: Detach sound path.
+- `attachPartSndPath `: Part attach sound path.
+- `detachPartSndPath`: Part detach sound path.
+- `attachStaticSndPath`: Ground attach sound path.
+- `detachStaticSndPath`: Ground detach sound path.
