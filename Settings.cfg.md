@@ -30,11 +30,17 @@ KISConfig
 	EvaPickup
 	{
 		grabKey = g	
-		canDetach = false
+		attachKey = h	
+		allowPartAttach = false
+		allowStaticAttach = false
+		allowSnapAttach = false
 		maxDistance = 3
-		maxMass = 1
+		grabMaxMass = 1
 		dropSndPath = KIS/Sounds/drop
-		attachSndPath = KIS/Sounds/attach
+		attachPartSndPath = KIS/Sounds/attachPart
+		detachPartSndPath = KIS/Sounds/detachPart
+		attachStaticSndPath= KIS/Sounds/attachStatic
+		detachStaticSndPath = KIS/Sounds/detachStatic
 		draggedIconResolution = 64
 	}
 	StackableModule
@@ -52,9 +58,12 @@ KISConfig
 		moduleName = KASModuleStrut
 		moduleName = KASModulePort
 		moduleName = KASModuleMagnet
-		moduleName = KASModuleGrapplingHook
+		moduleName = KASModuleHarpoon
 		moduleName = KASModuleGrab
 		moduleName = KASModuleAnchor
+		moduleName = KASModuleContainer
+		moduleName = USI_ModuleRecycleablePart
+		moduleName = CollisionFX
 	}
 	StackableItemOverride
 	{
@@ -82,12 +91,20 @@ KISConfig
 - `closeSndPath`: Close sound path of the inventory
 
 ###### `EvaPickup`
+This is the default behaviour of every kerbal for pickup. Take note that some parameters can be changed by a tool.
 - `grabKey`: Shortcut key to grab
-- `canDetach`: Ability to grab attached part
+- `attachKey`: Shortcut key to attach
+- `allowPartAttach`: Allow part to be attached on another part (
+- `allowStaticAttach`: Allow part to be attached on static
+- `allowSnapAttach`: Allow part attach with snap
 - `maxDistance`: Maximum grab and move distance
-- `maxMass`: Maximum mass of a Kerbal can lift
+- `grabMaxMass`: Maximum mass of a Kerbal can grab
 - `dropSndPath`: Drop sound path
 - `attachSndPath`: Attach sound path
+- `attachPartSndPath`: Part ttach sound path
+- `detachPartSndPath`: Part detach sound path
+- `attachStaticSndPath`: Static attach sound path
+- `detachStaticSndPath`: Static detach sound path
 - `draggedIconResolution`: Icon resolution of the part dragged
 
 ###### `StackableModule`
