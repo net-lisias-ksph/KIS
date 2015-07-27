@@ -94,10 +94,10 @@ KISConfig
 This is the default behaviour of every kerbal for pickup. Take note that some parameters can be changed by a tool.
 - `grabKey`: Shortcut key to grab
 - `attachKey`: Shortcut key to attach
-- `allowPartAttach`: Allow part to be attached on another part (
+- `allowPartAttach`: Allow part to be attached on another part
 - `allowStaticAttach`: Allow part to be attached on static
 - `allowSnapAttach`: Allow part attach with snap
-- `maxDistance`: Maximum grab and move distance
+- `maxDistance`: Maximum distance to open a container and grab parts.
 - `grabMaxMass`: Maximum mass of a Kerbal can grab
 - `dropSndPath`: Drop sound path
 - `attachSndPath`: Attach sound path
