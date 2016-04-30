@@ -7,4 +7,4 @@ If you've noticed another mod that conflicts with KIS, please, notify on the [fo
 - *Infernal robotics*. KIS is unable to correctly attach/detach IR parts due to their complexity. There is no ETA to fix it.
 - *Deadly Reentry*. As of v7.4.2 is known to cause kerbal replication bug when entering a pod. This is not a KIS issue.
 - *Kerbalism*. As of v0.9.9.4 is known to cause kerbal replication bug when entering a pod. This is not a KIS issue.
-- *Ferram Aerospace Research (FAR)*. May spam logs with `NullPointerException` error, other consequences are unknown. As for now it's unknown if it's KIS or FAR issue. There is ETA to fix it.
+- *Ferram Aerospace Research (FAR)*. May spam logs with `NullPointerException` error, other consequences are unknown. As for now it's unknown if it's KIS or FAR issue. There is no ETA to fix it.
