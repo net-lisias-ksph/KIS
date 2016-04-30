@@ -5,6 +5,7 @@ Welcome to the KIS wiki !
 - [Default Keyboard Shortcuts](wiki/Default Keyboard Shortcuts)
 - [Settings](wiki/Settings.cfg)
 - [Known issues](wiki/Known issues)
+- [Known incompatible mods](https://github.com/KospY/KIS/wiki/Known-incompatible-mods)
 
 ## Modding - KIS 1.2.0
 
