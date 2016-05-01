@@ -14,6 +14,10 @@ KISConfig
 		kerbalDefaultMass = 0.094
 		breathableAtmoPressure = 0.5
 	}
+        Editor
+	{
+		partGrabModifiers = None
+	}
 	EvaInventory
 	{
 		inventoryKey = tab
@@ -77,6 +81,9 @@ KISConfig
 - `itemDebug`: Enable/disable the debug tool to configure an item ingame (usefull to set position of the item on the kerbal). To use it open the context menu of an item and click "debug".
 - `kerbalDefaultMass` : Set the kerbal default mass.
 - `breathableAtmoPressure` : Set pressure needed to allow kerbal to remove helmet (planet with oxygen only).
+
+###### `Editor`
+- `partGrabModifiers`: A key modifier combination to check when starting dragging items from the editor's category list panel. By default there are no modifiers, and a simple left mouse click grabs a part. Though, if you want to let KSP or other mod to handle this action you may add modifier(s) for the KIS actions. Modifiers setting is a set of three values: `AnyAlt`, `AnyShift`, and `AnyControl`. There is a special value `None` to say there must be no modifiers. The modifiers set must match *exactly*. E.g. `AnyShift, AnyAlt` setting will only work if both shift and alt keys are pressed. If there is also a control key pressed then the drag action won't trigger since the modifiers set doesn't match.
 
 ###### `EvaInventory`
 - `inventoryKey`: Shortcut key to open the current EVA inventory.
