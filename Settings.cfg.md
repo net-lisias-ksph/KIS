@@ -30,6 +30,16 @@ KISConfig
 		maxVolume = 300
 		openSndPath = KIS/Sounds/inventoryOpen
 		closeSndPath = KIS/Sounds/inventoryClose
+
+		slotHotkeysEnabled = true
+		slotHotkey1 = Alpha1
+		slotHotkey2 = Alpha2
+		slotHotkey3 = Alpha3
+		slotHotkey4 = Alpha4
+		slotHotkey5 = Alpha5
+		slotHotkey6 = Alpha6
+		slotHotkey7 = Alpha7
+		slotHotkey8 = Alpha8
 	}
 	EvaPickup
 	{
@@ -96,6 +106,8 @@ KISConfig
 - `maxVolume`: Maximum volume of the EVA inventory
 - `openSndPath`: Open sound path of the inventory
 - `closeSndPath`: Close sound path of the inventory
+- `slotHotkeysEnabled`: Specifies if hotkeys should be handled to (de)equip item,s from the kerbal's personal inventory.
+- `slotHotkeyX`: Maps a specific key as a hotkey for the inventory item (de)equip action. Kerbal's personal inventory has exactly 8 slots, and `X` in the setting name is a slot number starting from 1. You may use value `None` to skip assignment for a particular slot. By default slots' hotkeys are bound to alpha keys 1-8.
 
 ###### `EvaPickup`
 This is the default behaviour of every kerbal for pickup. Take note that some parameters can be changed by a tool.
