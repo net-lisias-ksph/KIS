@@ -17,6 +17,11 @@ KISConfig
         Editor
 	{
 		partGrabModifiers = None
+		PodInventory
+		{
+			//addToAllSeats = KIS.evapropellant
+			//addToTheFirstSeatOnly = KIS.electricScrewdriver
+		}
 	}
 	EvaInventory
 	{
@@ -94,6 +99,11 @@ KISConfig
 
 ###### `Editor`
 - `partGrabModifiers`: A key modifier combination to check when starting dragging items from the editor's category list panel. By default there are no modifiers, and a simple left mouse click grabs a part. Though, if you want to let KSP or other mod to handle this action you may add modifier(s) for the KIS actions. Modifiers setting is a set of three values: `AnyAlt`, `AnyShift`, and `AnyControl`. There is a special value `None` to say there must be no modifiers. The modifiers set must match *exactly*. E.g. `AnyShift, AnyAlt` setting will only work if both shift and alt keys are pressed. If there is also a control key pressed then the drag action won't trigger since the modifiers set doesn't match.
+- `PodInventory`: Allows specifying items to add into pod's inventory by default. These items will be automatically added into the seat's inventory when a pod is created in the editor. The added quantity is always `1`, and each item is placed into own inventory slot. You can add up to 8 items into kerbal's personal inventory, anything above this number will be ignored.
+ - `addToAllSeats`: Specifies items that will be added into every seat's inventory. Makes sense to use it to add items that are needed by every crew member. E.g. a spare EVA propellant canister.
+ - `addToTheFirstSeatOnly` specifies items that should be added be added into the first seat's inventory only. Can be used to add items that needed only one per a craft. E.g. a screwdriver for engineer.
+
+ *Note*, that item names have different spelling in part's config and in KIS settings file. When part's name has an underscore (`_`) in the name it must be changed to dot (`.`). E.g. `KIS_evapropellant` is the name in the part's config, it should be `KIS.evapropellant` in the KIS settings file.
 
 ###### `EvaInventory`
 - `inventoryKey`: Shortcut key to open the current EVA inventory.
