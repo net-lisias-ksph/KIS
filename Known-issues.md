@@ -1,3 +1,4 @@
 - Small parts dropped can go throught the ground or explode. I recommend to avoid dropping them on the ground, and instead drop them on another part (container for exemple)
 - Item drag from part list to inventory in editor can be stuck after loading a vessel (click on the inventory UI to fix the problem)
 - Kerbal inventory portrait is missing after going on the map (save/load to fix)
+- Logs may report a message: `Ignoring error adding ModuleKISInventory to kerbalEVA_RD (Part): System.NullReferenceException`. In spite of it has text referring to an NRE it's **not an error**. The record itself is INFO level, and just notifies about a known issue. For now there is no solution to avoid this behavior.
