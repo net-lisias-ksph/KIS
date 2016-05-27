@@ -14,7 +14,7 @@ KISConfig
 		kerbalDefaultMass = 0.094
 		breathableAtmoPressure = 0.5
 	}
-        Editor
+	Editor
 	{
 		partGrabModifiers = None
 		PodInventory
