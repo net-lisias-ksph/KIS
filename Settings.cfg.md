@@ -13,6 +13,16 @@ KISConfig
 		itemDebug = false
 		kerbalDefaultMass = 0.094
 		breathableAtmoPressure = 0.5
+
+		slotHotkeysEnabled = true
+		slotHotkey1 = Alpha1
+		slotHotkey2 = Alpha2
+		slotHotkey3 = Alpha3
+		slotHotkey4 = Alpha4
+		slotHotkey5 = Alpha5
+		slotHotkey6 = Alpha6
+		slotHotkey7 = Alpha7
+		slotHotkey8 = Alpha8
 	}
 	Editor
 	{
@@ -35,16 +45,6 @@ KISConfig
 		maxVolume = 300
 		openSndPath = KIS/Sounds/inventoryOpen
 		closeSndPath = KIS/Sounds/inventoryClose
-
-		slotHotkeysEnabled = true
-		slotHotkey1 = Alpha1
-		slotHotkey2 = Alpha2
-		slotHotkey3 = Alpha3
-		slotHotkey4 = Alpha4
-		slotHotkey5 = Alpha5
-		slotHotkey6 = Alpha6
-		slotHotkey7 = Alpha7
-		slotHotkey8 = Alpha8
 	}
 	EvaPickup
 	{
@@ -96,6 +96,8 @@ KISConfig
 - `itemDebug`: Enable/disable the debug tool to configure an item ingame (usefull to set position of the item on the kerbal). To use it open the context menu of an item and click "debug".
 - `kerbalDefaultMass` : Set the kerbal default mass.
 - `breathableAtmoPressure` : Set pressure needed to allow kerbal to remove helmet (planet with oxygen only).
+- `slotHotkeysEnabled`: Specifies if hotkeys should be handled to (de)equip item,s from the kerbal's personal inventory.
+- `slotHotkeyX`: Maps a specific key as a hotkey for the inventory item (de)equip action. Kerbal's personal inventory has exactly 8 slots, and `X` in the setting name is a slot number starting from 1. You may use value `None` to skip assignment for a particular slot. By default slots' hotkeys are bound to alpha keys 1-8.
 
 ###### `Editor`
 - `partGrabModifiers`: A key modifier combination to check when starting dragging items from the editor's category list panel. By default there are no modifiers, and a simple left mouse click grabs a part. Though, if you want to let KSP or other mod to handle this action you may add modifier(s) for the KIS actions. Modifiers setting is a set of three values: `AnyAlt`, `AnyShift`, and `AnyControl`. There is a special value `None` to say there must be no modifiers. The modifiers set must match *exactly*. E.g. `AnyShift, AnyAlt` setting will only work if both shift and alt keys are pressed. If there is also a control key pressed then the drag action won't trigger since the modifiers set doesn't match.
@@ -116,8 +118,6 @@ KISConfig
 - `maxVolume`: Maximum volume of the EVA inventory
 - `openSndPath`: Open sound path of the inventory
 - `closeSndPath`: Close sound path of the inventory
-- `slotHotkeysEnabled`: Specifies if hotkeys should be handled to (de)equip item,s from the kerbal's personal inventory.
-- `slotHotkeyX`: Maps a specific key as a hotkey for the inventory item (de)equip action. Kerbal's personal inventory has exactly 8 slots, and `X` in the setting name is a slot number starting from 1. You may use value `None` to skip assignment for a particular slot. By default slots' hotkeys are bound to alpha keys 1-8.
 
 ###### `EvaPickup`
 This is the default behaviour of every kerbal for pickup. Take note that some parameters can be changed by a tool.
