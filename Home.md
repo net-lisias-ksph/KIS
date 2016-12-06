@@ -24,14 +24,14 @@ KIS plugins can be easly created by extending some class :
 - [ModuleKISPartDrag](wiki/PartDragPlugin)
 
 Exemples of an item plugin :
-- [ModuleKISItemFood](https://github.com/KospY/KIS/blob/master/Plugins/Source/ModuleKISItemFood.cs)
-- [ModuleKISItemSoundPlayer](https://github.com/KospY/KIS/blob/master/Plugins/Source/ModuleKISItemSoundPlayer.cs)
-- [ModuleKISItemBook](https://github.com/KospY/KIS/blob/master/Plugins/Source/ModuleKISItemBook.cs)
+- [ModuleKISItemFood](https://github.com/ihsoft/KIS/tree/master/Source/ModuleKISItemFood.cs)
+- [ModuleKISItemSoundPlayer](https://github.com/ihsoft/KIS/tree/master/Source/ModuleKISItemSoundPlayer.cs)
+- [ModuleKISItemBook](https://github.com/ihsoft/KIS/tree/master/Source/ModuleKISItemBook.cs)
 
 ## Reference
-- [Version history](https://github.com/KospY/KIS/blob/master/changelog.md)
+- [Version history](https://github.com/KospY/KIS/blob/master/CHANGELOG.md)
 - [License](https://github.com/KospY/KIS/blob/master/LICENSE.md)
 
 ## See Also
 - [Bug Reporting Guidelines](https://github.com/KospY/KIS/blob/master/CONTRIBUTING.md)
-- [Forum Thread](//)
+- [Forum Thread](http://forum.kerbalspaceprogram.com/index.php?/topic/149848-12-kerbal-inventory-system-kis-v140/)
