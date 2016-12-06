@@ -15,7 +15,6 @@ MODULE
         usableFromEditor = false
         stackable = false
         volumeOverride = 0
-        editorItemsCategory = true
         moveSndPath = KIS/Sounds/itemMove
         equipable = false
         equipMode = model
@@ -40,7 +39,6 @@ MODULE
 - `usableFromEditor`: Can be used from any inventory in the editor
 - `stackable`: Set if the item can be stacked
 - `volumeOverride`: Set the volume of the item. Set it to 0 to let KIS calculate automatically the volume from mesh.
-- `editorItemsCategory`: Set if the item is displayed in the EVA items category in the editor
 - `moveSndPath`: Item move sound path
 - `equipable`: Set if the item can be equipped
 - `equipMode`: Can be "model", "part" or "physic". "model" will only show the item model on equip, "part" will spawn the part (without rigidbody however) and attach it to the kerbal (so the part modules will run normally) and "physic" will spawn and "attach" physically the part to the kerbal Eva (but it will make the eva RCS not working correctly in space and the part will not follow Kerbal bones).
