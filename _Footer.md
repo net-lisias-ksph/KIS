@@ -1,0 +1,1 @@
+Author: igor.zavoychinskiy@gmail.com (a.k.a. [IgorZ](http://forum.kerbalspaceprogram.com/index.php?/profile/155445-igorz/))
