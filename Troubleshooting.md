@@ -30,7 +30,7 @@ For `KSP 1.3`, the lowest compatible version of `MM` is `2.8.0`. Even if you use
 
 # How to get the game's log file
 
-When the problem cannot be solved via the troubleshooting steps, the way to resolve it analysing the logs file. However, most people don't know how to get it, or get the wrong one. When you're requested for a log, find the file named `KSP.log` which is located in the game's root:
+When the problem cannot be solved via the troubleshooting steps, the only way to resolve it is analysing the log file. However, most people don't know how to get it, or get the wrong one (e.g. `output_log.txt`). When you're requested for a log, find the file named `KSP.log` which is located in the game's root:
 
 ![KSP.log location](https://raw.githubusercontent.com/ihsoft/KIS/master/WikiImages/Screenshot-KSPLogLocation.png)
 
