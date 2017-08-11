@@ -38,7 +38,7 @@ By default, Windows doesn't show the files extensions, which causes troubles whe
 
 ![Enable file extenions](https://raw.githubusercontent.com/ihsoft/KIS/master/WikiImages/Screenshot-EnableFileExtensions.png)
 
-## Sharing the file
+# Sharing the log file
 
 The log file is usually huge. Don't even try to copy/paste it to the forum. Instead, share the file via any free (or paid) sharing service, and provide a link on the forum. There are a lot of free services in the Internet that allow sharing files, many of them don't even require registration. However, some services put a lot of ads and scripts on their pages, so avoid using such websites.
 
