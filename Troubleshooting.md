@@ -42,9 +42,9 @@ By default, Windows doesn't show the files extensions, which causes troubles whe
 
 The log file is usually huge. Don't even try to copy/paste it to the forum. Instead, share the file via any free (or paid) sharing service, and provide a link on the forum. There are a lot of free services in the Internet that allow sharing files, many of them don't even require registration. However, some services put a lot of ads and scripts on their pages, so avoid using such websites.
 
-Here is just a few services that can help you sharing the file:
-* __Google Drive__. If you have email on Gmail, then you have the drive. Put the file on the drive and set sharing permissions to "everyone with the link". Then, grab the link and post it on the forum.
-* [Uploadfiles.io](https://uploadfiles.io/). Just drag-n-drop or browse for the log file. The file will be persisted there for 30 days, but if you didn't get help after 30 days, then it doesn't matter anyways.
+Here are just a few services that can help you sharing the file:
+* __Google Drive__. If you have email on Gmail, then you have the drive. Put the file on the drive and set the sharing permissions to "everyone with the link". Then, grab the link and post it on the forum.
+* [Uploadfiles.io](https://uploadfiles.io/). Just drag-n-drop or browse for the log file. The file will be persisted there for 30 days. If you didn't get help after 30 days, then it doesn't matter anyways.
 * [File Convoy](https://www.fileconvoy.com/). Browse for the log file and select a reasonable retaining period (21 days max). You may skip the e-mail option.
 
 [KIS forum]: http://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/
