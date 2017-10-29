@@ -6,7 +6,7 @@ The `KIS` setup is __wrong__, it _must_ be installed exactly as described on the
 
 ## Using GitHub release
 
-Do not download a release archive from GitHub. It's not intended for the the mod installation.  If you did it, drop all the files you have created, and follow the instructions on the forum.
+Do not download a release archive from GitHub. It's not intended for the the mod installation.  If you did it, drop all the files you have created, and follow the instructions on the [forum](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-131-kerbal-inventory-system-kis-v17/).
 
 This is how the right installation looks like:
 
