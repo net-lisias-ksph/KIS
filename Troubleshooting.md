@@ -1,6 +1,6 @@
 Before escalating an issue, please, try reading through this document. If none of the described issues apply to your situation, then [grab the the game's log file](#how-to-get-the-games-log-file) and make a posting on the [KIS forum] giving as much details as you can. Please, don't post just a short message like "KIS doesn't work" - nobody will be able to help you.
 
-# A capsule seat inventory can only have 1L of stuff in the editor
+# KIS inventory can only have 1L of stuff
 
 The `KIS` setup is __wrong__, it _must_ be installed exactly as described on the [KIS forum]. When the required files are not found, the described issue shows up. Below are described some frequent mistakes that people do, but this is not an exhaustive list.
 
