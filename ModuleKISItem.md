@@ -21,8 +21,7 @@ MODULE
         equipSlot = <null>
         equipSkill = <null>
         equipRemoveHelmet = false
-        equipMeshName = helmet
-        equipBoneName = helmet01
+        equipBoneName = aliasHelmet
         equipPos = (0, 0, 0)
         equipDir = (0, 0, 0)
         carriable = false
@@ -42,11 +41,10 @@ MODULE
 - `moveSndPath`: Item move sound path
 - `equipable`: Set if the item can be equipped
 - `equipMode`: Can be "model", "part" or "physic". "model" will only show the item model on equip, "part" will spawn the part (without rigidbody however) and attach it to the kerbal (so the part modules will run normally) and "physic" will spawn and "attach" physically the part to the kerbal Eva (but it will make the eva RCS not working correctly in space and the part will not follow Kerbal bones).
-- `equipSlot`: Can be any text. Right now some name are reserved lile 'rightHand' will allow the item to be used with the [x] key.
+- `equipSlot`: Can be any text. Right now some name are reserved like 'rightHand' will allow the item to be used with the [x] key.
 - `equipSkill`: Restrict equip to a kerbal trait. Can be "engineer", "scientist" or "pilot". Leave blank set to no restriction. Other trait name are also supported if they are added to the game.
 - `equipRemoveHelmet`: If set to true helmet will be removed on equip
-- `equipMeshName`: Name of the mesh used to set the equip position of the item (use item debug tool to find names)
-- `equipBoneName`: Name of the bone used to set the equip position of the item (use item debug tool to find names)
+- `equipBoneName`: Name of the bone used to set the equip position of the item (use item debug tool to find names). Note, that different kerbal models can have different paths to the same bone. Whenever possible, use the bone name aliases. They are defined in the settings file under the `EquipAliases` section. Refer to the path pattern name [help page](https://ihsoft.github.io/KSPDev/Utils/html/M_KSPDev_ModelUtils_Hierarchy_FindTransformByPath_1.htm) to learn how to define a searching path.
 - `equipPos`: Relative position of the item once equipped
 - `equipDir`: Relative rotation of the item once equipped
 - `carriable`: Allow the part to be carried by a kerbal. Carriable item use the 'equipSlot' parameter to check if the slot is used (it's possible to carry multiple item using different slot name).
