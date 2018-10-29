@@ -44,7 +44,7 @@ MODULE
 - `equipSlot`: Can be any text. Right now some name are reserved like 'rightHand' will allow the item to be used with the [x] key.
 - `equipSkill`: Restrict equip to a kerbal trait. Can be "engineer", "scientist" or "pilot". Leave blank set to no restriction. Other trait name are also supported if they are added to the game.
 - `equipRemoveHelmet`: If set to true helmet will be removed on equip
-- `equipBoneName`: Name of the bone used to set the equip position of the item (use item debug tool to find names). Note, that different kerbal models can have different paths to the same bone. Whenever possible, use the bone name aliases. They are defined in the settings file under the `EquipAliases` section. Refer to the path pattern name [help page](https://ihsoft.github.io/KSPDev/Utils/html/M_KSPDev_ModelUtils_Hierarchy_FindTransformByPath_1.htm) to learn how to define a searching path.
+- `equipBoneName`: Alias or search pattern to find the bone used to set the equip position of the item. Read more on the dedicated [Wiki page](https://github.com/ihsoft/KIS/wiki/Equippable-items-in-KIS-v1.15-and-higher).
 - `equipPos`: Relative position of the item once equipped
 - `equipDir`: Relative rotation of the item once equipped
 - `carriable`: Allow the part to be carried by a kerbal. Carriable item use the 'equipSlot' parameter to check if the slot is used (it's possible to carry multiple item using different slot name).
