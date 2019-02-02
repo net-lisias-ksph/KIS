@@ -1,12 +1,16 @@
 Before escalating an issue, please, try reading through this document. If none of the described issues apply to your situation, then [grab the the game's log file](#how-to-get-the-games-log-file) and make a posting on the [KIS forum] giving as much details as you can. Please, don't post just a short message like "KIS doesn't work" - nobody will be able to help you.
 
+# What's the right installation process
+
+Read the [`README.md`](https://github.com/ihsoft/KIS/blob/master/README.md#how-to-install) file. Please, follow the steps exactly. Don't assume you can skip something, it will likely break the installation.
+
 # KIS inventory can only have 1L of stuff
 
 The `KIS` setup is __wrong__, it _must_ be installed exactly as described on the [KIS forum]. When the required files are not found, the described issue shows up. Below are described some frequent mistakes that people do, but this is not an exhaustive list.
 
 ## Using GitHub release
 
-Do not download a release archive from GitHub. It's not intended for the the mod installation.  If you did it, drop all the files you have created, and follow the instructions on the [forum](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-131-kerbal-inventory-system-kis-v17/).
+The sources on GitHub must _not_ be used for the mod installation. It won't work! Got ot the release page and download the release. Inside there will be a release archive, e.g. `KIS_v1.18.zip`. This is the installation archive.
 
 This is how the right installation looks like:
 
