@@ -10,7 +10,7 @@ The `KIS` setup is __wrong__, it _must_ be installed exactly as described on the
 
 ## Using GitHub release
 
-The sources on GitHub must _not_ be used for the mod installation. It won't work! Got ot the release page and download the release. Inside there will be a release archive, e.g. `KIS_v1.18.zip`. This is the installation archive.
+The sources on GitHub must _not_ be used for the mod installation. It won't work! Go to the release page and download the release. Inside, there will be a release file, e.g. `KIS_v1.18.zip`. This is the installation archive.
 
 This is how the right installation looks like:
 
