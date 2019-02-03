@@ -57,7 +57,6 @@ aliasRightElbow | `**/bn_r_elbow_a01` | Right hand elbow bone.
 aliasJetpack | `**/bn_jetpack01` | Jetpack bone.
 aliasHelmet | `**/bn_helmet01` | Helmet bone.
 aliasHead | `**/bn_upperJaw01` | Upper part of the head bone.
-aliasHelmetModel | `**/model01/helmet01`<br>`**/model01/female01/*helmet01` | Helmet root _model_. It's not a bone! This alias is used to find the helmet in the "helmet on/off" action.
 
 ## Custom aliases
 
