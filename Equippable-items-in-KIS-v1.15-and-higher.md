@@ -27,13 +27,13 @@ E.g. here is an example from the stock config:
 	}
 ```
 
-There are two different patterns for the `aliasHelmetModel` alias: on for the male models and one for the female models. Depending on which model the kerbal is wearing, one or the other pattern will match.
+There are two different patterns for the `aliasHelmetModel` alias: onу for the male models and one for the female models. Depending on which model the kerbal is wearing, one or the other pattern will match.
 
 The item config can specify own search pattern, but in this case there can be only one. Or it can refer an alias, defined in the KIS settings file, and have multiple patterns tried. Alias names always start from prefix `alias`, this is how the mod knows if it's a search pattern or an alias.
 
 ## Search pattern syntax
 
-In nutshell, this syntax is what `KPDev Utils` uses to deal with the model hierarchy. Full details can be found in the doc page for [`Hierarchy.FindTransformByPath`](https://ihsoft.github.io/KSPDev/Utils/html/M_KSPDev_ModelUtils_Hierarchy_FindTransformByPath_1.htm) method. It's highly unlikely that the bone searching pattern would need all the features of the pattern specification. So, here are some basic points that should cover 99% of the cases:
+In nutshell, this syntax is what `KPDev Utils` uses to deal with the model hierarchy. Full details can be found in the doc page for [`Hierarchy.FindTransformByPath`](https://ihsoft.github.io/KSPDev_Utils/v1.0/html/M_KSPDev_ModelUtils_Hierarchy_FindTransformByPath_1.htm) method. It's highly unlikely that the bone searching pattern would need all the features of the pattern specification. So, here are some basic points that should cover 99% of the cases:
 
 - The pattern is a "path" in the object hierarchy. It consists of the components, separated by symbol `/`. Each "component" is a `GameObject` in the model hierarchy.
 - Use `*` as a component name to match any name.
