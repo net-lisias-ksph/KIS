@@ -1,4 +1,4 @@
-Before escalating an issue, please, try reading through this document. If none of the described issues apply to your situation, then [grab the the game's log file](#how-to-get-the-games-log-file) and make a posting on the [KIS forum] giving as much details as you can. Please, don't post just a short message like "KIS doesn't work" - nobody will be able to help you.
+Before escalating issue, please, try reading through this document. If none of the described issues apply to your situation, then [grab the game's log file](#how-to-get-the-games-log-file) and make a posting on the [KIS forum] giving as much details as you can. Please, don't post just a short message like "KIS doesn't work" - nobody will be able to help you.
 
 # What's the right installation process
 
