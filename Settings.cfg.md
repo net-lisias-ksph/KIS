@@ -92,8 +92,7 @@ KISConfig
 ```
 
 ###### `Global`
-- `itemDebug`: Enable/disable the debug tool to configure an item ingame (usefull to set position of the item on the kerbal). To use it open the context menu of an item and click "debug".
-- `kerbalDefaultMass` : Set the kerbal default mass.
+- `itemDebug`: Enable/disable the debug tool to configure an item ingame (useful to set position of the item on the kerbal). To use it open the context menu of an item and click "debug".
 - `breathableAtmoPressure` : Set pressure needed to allow kerbal to remove helmet (planet with oxygen only).
 - `slotHotkeysEnabled`: Specifies if hotkeys should be handled to (de)equip item,s from the kerbal's personal inventory.
 - `slotHotkeyX`: Maps a specific key as a hotkey for the inventory item (de)equip action. Kerbal's personal inventory has exactly 8 slots, and `X` in the setting name is a slot number starting from 1. You may use value `None` to skip assignment for a particular slot. By default slots' hotkeys are bound to alpha keys 1-8.
