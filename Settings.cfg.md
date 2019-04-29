@@ -11,7 +11,6 @@ KISConfig
 	Global
 	{
 		itemDebug = false
-		kerbalDefaultMass = 0.094
 		breathableAtmoPressure = 0.5
 
 		slotHotkeysEnabled = true
