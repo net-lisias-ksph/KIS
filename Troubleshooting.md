@@ -32,7 +32,7 @@ For `KSP 1.3`, the lowest compatible version of `MM` is `2.8.0`. Even if you use
 
 ![ModuleManager version](https://raw.githubusercontent.com/ihsoft/KIS/master/WikiImages/Screenshot-ModuleMangerCheck.png)
 
-# ISSUE: No longer able to stack previously stackable item
+# ISSUE: No longer able to stack a previously stackable item
 
 If an item was stackable before, but then suddenly stopped, it _always_ means exactly one thing: you've installed a mod that, for its own reasons, decided to add a custom module to a large set of parts that are not directly related to this mod. This type of issues is called "mods conflict", and it's out of the `KIS` author responsibility, since it impossible to test `KIS` against every single mod existing in the world. However, you may take some actions to have it fixed in your game. And if the mod, you've installed, is a widely recognized mod, then it makes sense to escalate it to the `KIS` author via forum or GitHub.
 
