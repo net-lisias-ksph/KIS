@@ -38,18 +38,18 @@ If an item was stackable before, but then suddenly stopped stacking, it _always_
 
 To address the problem in your own game, follow these steps:
 * Prior to modifying any game or mod files, make a backup of your save directory, and the file you are intending to modify. Please be aware that folders such as `saves` and `GameData`, are always sub-directories of your `Kerbal Space Program` installation. The name of the main directory, or where that directory is located on your drive however, may vary depending on where you have chosen to install it.
-* To function properly, `KIS` must be aware of all modules being applied to a part. If a part's behaviour has seemingly suddenly changed, find that part's unique name by searching for it within the `GameData` directory files. Please be aware, a part's unique name usually is not the same as its common name. For example, the `Mk1 Command Pod` configuration file is located at `<game root>\GameData\Squad\Parts\Command\mk1pod\mk1Pod.cfg`, and is referenced as `mk1pod`.
+* To function properly, `KIS` must be aware of all modules being applied to a part. If a part's behavior has suddenly changed, find that part's unique name by searching for it within the `GameData` directory files. Please be aware, a part's unique name usually is not the same as its common name. For example, the `Mk1 Command Pod` configuration file is located at `<game root>\GameData\Squad\Parts\Command\mk1pod\mk1Pod.cfg`, and is referenced as `mk1pod`.
 * When you have found the part's unique name, open `ModuleManager.ConfigCache` in the root of the KSP's `GameData` folder, and search for it. 
 * When you have located the part's unique name in `ModuleManager.ConfigCache`, for example `name = mk1pod`, scroll down to look for module references, for example `MODULE { name = ModuleCommand }`. It is very likely that there will be more than one module reference, and it may be beneficial to take note of them all.
-* When you have determined the part's module references, check them against KIS's white list located in the [KIS settings file](https://github.com/ihsoft/KIS/blob/master/settings.cfg), under the `StackableModule` reference. Entries will be listed as `moduleName = ModuleSAS`.
+* When you have determined the part's module references, check them against KIS's allow list located in the [KIS settings file](https://github.com/ihsoft/KIS/blob/master/settings.cfg), under the `StackableModule` reference. Entries will be listed as `moduleName = ModuleSAS`.
 * You may add custom modules such as `moduleName = AYPart` here. Where `AYPart` is what was listed in the cache file, but was missing in the config.
-* If you continue to have difficulties with part behaviour, restore backups; then open a ticket on the KIS Git Repository. Write a detailed explanation of the unexpected behaviour, and include any steps you have taken to rectify the problem. Attaching your `ModuleManager.ConfigCache` and `persistent.sfs` files may also be helpful.
+* If you continue to have difficulties with part behavior, restore backups; then open a ticket on the KIS Git Repository. Write a detailed explanation of the unexpected behavior, and include any steps you have taken to rectify the problem. Attaching your `ModuleManager.ConfigCache` and `persistent.sfs` files may also be helpful.
 
-Be careful with whitelisting modules since `KIS` doesn't allow stacking of the unknown modules _with purpose_. The unknown module may store an internal state which differs from part to part. If you whitelist such module, then the state of all items, stored in the inventory, will be reset to their prefab state (e.g. the state that they have in the editor).
+Be careful with allowlisting modules since `KIS` doesn't allow stacking of the unknown modules _for a reason_. The unknown module may store an internal state which differs from part to part. If you allow such module, then the state of all items in the stack will be reset to the very first item of this stack.
 
 # How to get the game's log file
 
-When the problem cannot be solved via the troubleshooting steps, the only way to resolve it is analysing the log file. However, most people don't know how to get it, or get the wrong one (e.g. `output_log.txt`). When you're requested for a log, find the file named `KSP.log` which is located in the game's root:
+When the problem cannot be solved via the troubleshooting steps, the only way to resolve it is analyzing the log file. However, most people don't know how to get it, or get the wrong one (e.g. `output_log.txt`). When you're requested for a log, find the file named `KSP.log` which is located in the game's root:
 
 ![KSP.log location](https://raw.githubusercontent.com/ihsoft/KIS/master/WikiImages/Screenshot-KSPLogLocation.png)
 
