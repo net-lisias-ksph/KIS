@@ -4,11 +4,11 @@ Before escalating issue, please, try reading through this document. If none of t
 
 Read the [`README.md`](https://github.com/ihsoft/KIS/blob/master/README.md#how-to-install) file. Please, follow the steps exactly. Don't assume you can skip something, it will likely break the installation.
 
-# KIS inventory can only have 1L of stuff
+# ISSUE: KIS inventory can only have 1L of stuff
 
-The `KIS` setup is __wrong__, it _must_ be installed exactly as described on the [KIS forum]. When the required files are not found, the described issue shows up. Below are described some frequent mistakes that people do, but this is not an exhaustive list.
+The `KIS` setup is __wrong__, it _must_ be installed exactly as described in the README.md file. When the required files are not found, the described issue shows up. Below are described some frequent mistakes that people do, but this is not an exhaustive list.
 
-## Using GitHub release
+## Possible reason: Using GitHub release
 
 The sources on GitHub must _not_ be used for the mod installation. It won't work! Go to the release page and download the release. Inside, there will be a release file, e.g. `KIS_v1.18.zip`. This is the installation archive.
 
@@ -16,7 +16,7 @@ This is how the right installation looks like:
 
 ![The right KIS folder content](https://raw.githubusercontent.com/ihsoft/KIS/master/WikiImages/Screenshot-TheRighContent.PNG)
 
-## Extracting the release archive into a wrong location
+## Possible reason: Extracting the release archive into a wrong location
 
 There is just one _right_ location where the `KIS` files must be located. If you changed the location either intentionally or by a mistake, you've broke the mod. To verify if that's the case, find the `KIS.dll` file. It must be located _exactly_ in the path `<game root>\GameData\KIS\Plugins\KIS.dll`. If it's not there, then drop all the files and repeat the installation, but this time extract the release archive into the right location.
 
@@ -24,7 +24,7 @@ If you did it right, then this is how your `GameData` folder will look like:
 
 ![The right KIS folder location](https://raw.githubusercontent.com/ihsoft/KIS/master/WikiImages/Screenshot-TheRighLocation.PNG)
 
-# Kerbals don't have "inventory" menu item when EVA
+# ISSUE: Kerbals don't have "inventory" menu item when EVA
 
 What kerbal can have is defined via `ModuleManager` mod (a.k.a. `MM`). If it's not installed, corrupted, or of a wrong version, then there will be no `KIS` specific items in the context menu.
 
@@ -32,7 +32,7 @@ For `KSP 1.3`, the lowest compatible version of `MM` is `2.8.0`. Even if you use
 
 ![ModuleManager version](https://raw.githubusercontent.com/ihsoft/KIS/master/WikiImages/Screenshot-ModuleMangerCheck.png)
 
-# No longer able to stack previously stackable item
+# ISSUE: No longer able to stack previously stackable item
 
 If an item was stackable before, but then suddenly stopped, it _always_ means exactly one thing: you've installed a mod that, for its own reasons, decided to add a custom module to a large set of parts that are not directly related to this mod. This type of issues is called "mods conflict", and it's out of the `KIS` author responsibility, since it impossible to test `KIS` against every single mod existing in the world. However, you may take some actions to have it fixed in your game. And if the mod, you've installed, is a widely recognized mod, then it makes sense to escalate it to the `KIS` author via forum or GitHub.
 
