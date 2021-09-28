@@ -1,5 +1,10 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-0526: 1.5.0 (IgorZ) for KSP 1.3
+	+ Do _not_ use this release to install the mod! It's only a sources snapshot. Go to the forum thread for the complete installation instructions.
+	+ 1.5.0 (May 25th, 2017)
+			- [Change] `OnKISAction` now accepts a dictionary parameter instead of the deprecated `BaseEventData`.
+			- KSP 1.3 support.
 * 2017-0502: 1.4.4 (IgorZ) for KSP 1.2.2
 	+ Do _not_ use this release to install the mod! It's only a sources snapshot. Go to the forum thread for the complete installation instructions.
 	+ 1.4.4 (May 1st, 2017)
