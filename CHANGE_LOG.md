@@ -1,5 +1,14 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2019-0531: 1.22 (IgorZ) for KSP 1.7.1
+	+ 1.22 (May 30th, 2019):
+		- [Change] "Breaking ground" DLC support.
+		- [Change] Don't allow `KIS` to deploy or move the ground experiments.
+		- [Change] Allow the small cargo to be carried by kerbal.
+		- [Change] Disable the default remove helmet hotkey `J` as it conflicts with "Breaking ground" DLC.
+		- [Enhancement] Add medium portable cargo to carry 6 experiments.
+		- [Fix #333] Robotics part trigger physics when making a hover model.
+		- [Fix #334] Action icons are blurred.
 * 2019-0517: 1.21 (IgorZ) for KSP 1.7
 	+ 1.21 (May 16th, 2019):
 		- [Fix #89] Portable containers revert to previous content when dropped.
