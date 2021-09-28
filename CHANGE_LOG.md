@@ -1,5 +1,10 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-0917: 1.7 (IgorZ) for KSP 1.3
+	+ Do ___not___ use this release to install the mod! It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.7 (September 17th, 2017):
+			- [Fix #224] Exception when move&attach a static attach item.
+			- [Fix #225] Impossible to move items between the inventories.
 * 2017-0915: 1.6 (IgorZ) for KSP 1.3
 	+ Do ___not___ use this release to install the mod! It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.6 (September 14th, 2017):
