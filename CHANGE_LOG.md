@@ -1,5 +1,11 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-0502: 1.4.4 (IgorZ) for KSP 1.2.2
+	+ Do _not_ use this release to install the mod! It's only a sources snapshot. Go to the forum thread for the complete installation instructions.
+	+ 1.4.4 (May 1st, 2017)
+			- [Enhancement] Equip kerbal models on the start screen with sample KIS items. Can be adjusted/disabled via `settings.cfg`.
+			- [Enhancement] Allow the Experiment Storage Unit to be carried on a kerbal's back (Wyzard256).
+			- [Fix] Proper paths in the fun parts.
 * 2017-0222: 1.4.3 (IgorZ) for KSP 1.2
 	+ Do _not_ use this release to install the mod! It's only a sources snapshot. Go to the forum thread for the complete installation instructions.
 	+ 1.4.3 (February 22nd, 2017)
