@@ -1,5 +1,8 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2019-0504: 1.20 (IgorZ) for KSP 1.7
+	+ 1.20 (May 3rd, 2019)):
+		- [Fix #326] Text formating in PAW menu.
 * 2019-0503: 1.19 (IgorZ) for KSP 1.7
 	+ 1.19 (May 2nd, 2019):
 		- [Change] `KSP 1.7.*` compatibility.
