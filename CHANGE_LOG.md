@@ -1,5 +1,13 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-1215: 1.8 (IgorZ) for KSP ['1.3.1', '1.3']
+	+ Do not use this release to install the mod!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.8 (December 14th, 2017):
+			- [Enhancement] Add Spanish localization.
+			- [Fix #181] Match the part's menu max distance to the inventory grab distance.
+			- [Fix #230] Equipped items don't destroy on kerbals pack.
+			- [Fix #233] Mounted parts are improperly aligned to the target.
+			- [Fix] Correct the localization string IDs that were conflicting with KAS.
 * 2017-0917: 1.7 (IgorZ) for KSP 1.3
 	+ Do ___not___ use this release to install the mod! It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.7 (September 17th, 2017):
