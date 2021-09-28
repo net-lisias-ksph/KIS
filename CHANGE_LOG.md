@@ -1,5 +1,11 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2018-0708: 1.13 (IgorZ) for KSP ['1.4.3', '1.4.2', '1.4.1', '1.4.0']
+	+ Do not use this release to install the mod!!!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.13 (July 7th, 2018):
+			- [Change] Migrate to x64 profile. The 32-bit game mode is no more supported!
+			- [Change] Migrate to KSPDev Utils 0.36.0.
+			- [Enhancement] Add Italian localization (IT_it).
 * 2018-0507: 1.12 (IgorZ) for KSP ['1.4.3', '1.4.2', '1.4.1', '1.4.0']
 	+ Do not use this release to install the mod!!!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.12 (May 6th, 2018):
