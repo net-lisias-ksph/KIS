@@ -1,5 +1,10 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2019-0517: 1.21 (IgorZ) for KSP 1.7
+	+ 1.21 (May 16th, 2019):
+		- [Fix #89] Portable containers revert to previous content when dropped.
+		- [Fix #328] KIS fails on every new DLC or major patch that changes kerbal models.
+		- [Fix #330] KIS containers mass and volume physically realistic. __Read the issue description for details!__
 * 2019-0504: 1.20 (IgorZ) for KSP 1.7
 	+ 1.20 (May 3rd, 2019)):
 		- [Fix #326] Text formating in PAW menu.
