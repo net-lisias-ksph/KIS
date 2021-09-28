@@ -1,5 +1,13 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2020-1224: 1.27 (IgorZ) for KSP 1.11.0
+	+ 1.27 (December 23rd, 2020):
+		- [Enhancement] Check for colliders when node attaching a part.
+		- [Enhancement] Add KIS inventory to the stock inventory parts: SEQ-9 & SEQ-24.
+		- [Enhancement] Allow the new stock modules to be stackable.
+		- [Enhancement #376] The new stock ground lights won't align properly on deploy.
+		- [Fix #374] Some stock science parts cannot be added into the KIS inventory.
+		- [Fix #375] Make the dropped KIS parts visible to the stock inventory system.
 * 2020-0719: 1.26 (IgorZ) for KSP 1.10
 	+ 1.26 (July 18th, 2020):
 		- [Change] Switch to `MiniAVC-V2`.
