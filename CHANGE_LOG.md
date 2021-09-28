@@ -1,5 +1,8 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2018-1030: 1.16 (IgorZ) for KSP ['1.5.1', '1.5']
+	+ 1.16 (October 29th, 2018):
+		- [Fix #275] No preview meshes shown.
 * 2018-1027: 1.15 (IgorZ) for KSP ['1.5.1', '1.5']
 	+ 1.15 (October 27th, 2018):
 		- [Change] KSP 1.5.* compatibility.
