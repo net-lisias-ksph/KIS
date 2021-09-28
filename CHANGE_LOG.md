@@ -1,5 +1,12 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2018-0327: 1.11 (IgorZ) for KSP ['1.4.2', '1.4.1', '1.4.0']
+	+ Do not use this release to install the mod!!!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.11 (March 26th, 2018):
+			- [Fix #248] Broken inventory for the new DLC suits.
+			- [Fix #252] Allow setting type of the inventory via config.
+			- [Fix #253] Kerbal preview is wrong for the expansion pack suites.
+			- [Fix #253] Remove helmet doesn't work on the expansion EVA suites.
 * 2018-0309: 1.10 (IgorZ) for KSP 1.4.0
 	+ Do not use this release to install the mod!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.10 (March 8th, 2018):
