@@ -1,5 +1,9 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2019-1207: 1.24 (IgorZ) for KSP ['1.8.1', '1.8']
+	+ 1.24 (December 6th, 2019):
+		- [Change] Add a workaround for #354 to not get GUI freezed.
+		- [Fix #352] Incorrect calculation of resources on the equipped items.
 * 2019-1023: 1.23 (IgorZ) for KSP 1.8
 	+ 1.23 (October 23rd, 2019):
 		- [Change] `KSP 1.8` compatibility. __WARNING__: the mod won't work with version lower than `KSP 1.8`!
