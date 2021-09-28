@@ -1,5 +1,10 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2018-0507: 1.12 (IgorZ) for KSP ['1.4.3', '1.4.2', '1.4.1', '1.4.0']
+	+ Do not use this release to install the mod!!!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.12 (May 6th, 2018):
+			- [Fix #257] Helmet doesn't remove on the female kerbal models.
+			- [Change] Upgrade to KSPDev Utils v0.33.
 * 2018-0327: 1.11 (IgorZ) for KSP ['1.4.2', '1.4.1', '1.4.0']
 	+ Do not use this release to install the mod!!!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.11 (March 26th, 2018):
