@@ -1,5 +1,11 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2018-0309: 1.10 (IgorZ) for KSP 1.4.0
+	+ Do not use this release to install the mod!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.10 (March 8th, 2018):
+			- KSP 1.4 support.
+			- [Change] Update the pods in the loading screens.
+			- [Enhancement] Add Espanol localization.
 * 2017-1228: 1.9 (IgorZ) for KSP ['1.3.1', '1.3']
 	+ Do not use this release to install the mod!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.9 (December 28th, 2017):
