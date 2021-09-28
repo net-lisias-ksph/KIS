@@ -1,5 +1,14 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2016-1204: 1.4.0 (IgorZ) for KSP 1.2
+	+ Do not use this release to install the mod! It's only a sources snapshot. Go to the [forum thread](http://forum.kerbalspaceprogram.com/index.php?/topic/149848-12-kerbal-inventory-system-kis-v140/) for the complete installation instructions.
+	+ 1.4.0 (December 4rd, 2016)
+		- [Enhancement] Add default items for the first seat into a lesser slots.
+		- [Fix #178] Full mass used for empty parts for purpose of removing from containers.
+		- [Fix #179] Put all KIS items into a real KSP categories.
+		- [Fix #180] Persist equipped state in EVA inventories.
+		- [Change] ModuleManager is now a required mod.
+		- [Change] CommunityCategoryKit is now a required mod.
 * 2016-1124: 1.3.1 (IgorZ) for KSP 1.2
 	+ 1.3.1 (November 11th, 2016)
 		- [Change] Stop using KSPDev obsolete logging methods.
