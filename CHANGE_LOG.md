@@ -1,5 +1,11 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-1228: 1.9 (IgorZ) for KSP ['1.3.1', '1.3']
+	+ Do not use this release to install the mod!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.9 (December 28th, 2017):
+			- [Enhancement] Add Chinese localization.
+			- [Fix #235] Items equip state is not persisted.
+			- [Fix #218] Exception when moving part in the editor.
 * 2017-1215: 1.8 (IgorZ) for KSP ['1.3.1', '1.3']
 	+ Do not use this release to install the mod!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.8 (December 14th, 2017):
