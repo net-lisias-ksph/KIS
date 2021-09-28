@@ -1,5 +1,10 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2016-0611: 1.2.11 (IgorZ) for KSP 1.1.2.
+	+ 1.2.11 (June 10th, 2016)
+		- [Fix] #138: NRE when switching to launch.
+		- [Fix] #151: NRE in editor when using Deadly Reenter mod.
+		- [Fix] #154: Items in free seats's inventory are not cleared and counted to the vessel mass.
 * 2016-0524: 1.2.10 (IgorZ) for KSP 1.1.2.
 	+ 1.2.10 (23 May 2016)
 	+ For proper part's volume calculation Module Manager is required. Though, without it the mod will still work.
