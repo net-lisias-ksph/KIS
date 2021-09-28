@@ -1,5 +1,17 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-0915: 1.6 (IgorZ) for KSP 1.3
+	+ Do ___not___ use this release to install the mod! It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
+	+ 1.6 (September 14th, 2017):
+			- [Enhancement] Improve the attach nodes of the KIS items (including the fun parts) to reduce the physics effects on drop.
+			- [Enhancement] Implement localization support.
+			- [Enhancement] Full localization for the Russian language ("ru" locale).
+			- [Fix #219] Inventory GUI spontaneously closes in the editor.
+			- [Fix #130] Crew transfer leaves ghost pod's inventory open.
+			- [Fix #220] Equipped parts trigger physics.
+			- [Fix #222] The equipped screwdriver can be attached to a part.
+			- [FIx #217] Align velocities on the dropped part.
+			- [FIx #207] Improve docked nodes detection in ReDock mode.
 * 2017-0526: 1.5.0 (IgorZ) for KSP 1.3
 	+ Do _not_ use this release to install the mod! It's only a sources snapshot. Go to the forum thread for the complete installation instructions.
 	+ 1.5.0 (May 25th, 2017)
