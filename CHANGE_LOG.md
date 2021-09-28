@@ -1,5 +1,10 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2016-0222: 1.2.5 (IgorZ) for KSP 1.0
+	+ 1.2.5 (22 February 2016)
+		- [Feature] #101: Allow configuring EVA inventory hotkeys via a config file.
+		- [Fix] #103: Part (not seat) inventory overwritten by crew inventory when transferring crew into it.
+		- [Fix] #89: Portable containers revert to previous content when dropped. For now only restrict using of such inventories to not loose items. Which promotes this bug to enchancement.
 * 2016-0218: 1.2.4 (IgorZ) for KSP 1.0
 	+ 1.2.4 (17 February 2016)
 		- [Feature] #96: Allow move/attach a group of parts. When grab mode is selected the whole hierarchy is highlited.
