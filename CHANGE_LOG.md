@@ -1,5 +1,7 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2016-0411: 1.2.7-alpha.1 (IgorZ) for KSP 1.1 PRE-RELEASE
+	+ This is a testing version only. Do not install it unless you're participating in alpha testing.
 * 2016-0422: 1.2.7 (IgorZ) for KSP 1.1
 	+ 1.2.7 (21 April 2016)
 		- [Change] KSP 1.1 supported!
