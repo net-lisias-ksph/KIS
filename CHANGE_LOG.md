@@ -1,5 +1,8 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2018-0719: 1.14 (IgorZ) for KSP ['1.4.4', '1.4.3', '1.4.2', '1.4.1', '1.4.0']
+	+ 1.14 (July 18th, 2018):
+		- [Change] Migrate to KSPDev Utils 0.37.0. A stability fix.
 * 2018-0708: 1.13 (IgorZ) for KSP ['1.4.3', '1.4.2', '1.4.1', '1.4.0']
 	+ Do not use this release to install the mod!!!__ It's only a sources snapshot. Go to [the forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/149848-13-kerbal-inventory-system-kis-v150/) for the complete installation instructions.
 	+ 1.13 (July 7th, 2018):
