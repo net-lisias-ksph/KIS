@@ -1,5 +1,15 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2016-1124: 1.3.1 (IgorZ) for KSP 1.2
+	+ 1.3.1 (November 11th, 2016)
+		- [Change] Stop using KSPDev obsolete logging methods.
+		- [Fix #175] EVA cnaister stopped working.
+		- [Fix #129] On initial load KIS_UISoundPlayer throws errors.
+		- [Fix #176] Use new KSP 1.2 categories to sort KIS parts.
+		- [Fix #152] Inventory reacts to flag writing.
+		- [Fix #157] MKS/OKS: NRE when adding MK-V Comm-Lab part.
+		- [Fix #135] NRE detaching and reattaching part with FAR.
+		- [Change] Exclude fun parts from the release.
 * 2016-1012: 1.3.0 (IgorZ) for KSP 1.2
 	+ KSP 1.2 support
 * 2016-0622: 1.2.12 (IgorZ) for KSP 1.1.3
