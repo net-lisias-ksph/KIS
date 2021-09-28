@@ -1,5 +1,18 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-0117: 1.4.1 (IgorZ) for KSP 1.2
+	+ Do not use this release to install the mod! It's only a sources snapshot. Go to the [forum thread](http://forum.kerbalspaceprogram.com/index.php?/topic/149848-12-kerbal-inventory-system-kis-v140/) for the complete installation instructions.
+	+ 1.4.1 (January 16th, 2017)
+		- [Fix #183] Equipped parts are not restored on scene load.
+		- [Fix #186] NRE when using container in the editor.
+		- [Fix #187] EVA equipped parts behave bad when sitting in the command seat.
+		- [Fix #189] Handle ESC key.
+		- [Fix #194] Remove helmet state is not persisted.
+		- [Fix #195] Eqipped parts collide with kerbal model.
+		- [Enhancement #184] Use KSP 1.2 feature to add inventories to kerbals.
+		- [Enhancement #191] Add bottom attachment node to container mount.
+		- [Enhancement #192] Disallow ILC-18k on container mount.
+		- [Enhancement #193] Add quadrant attachment nodes to stock 2x2 panel.
 * 2016-1204: 1.4.0 (IgorZ) for KSP 1.2
 	+ Do not use this release to install the mod! It's only a sources snapshot. Go to the [forum thread](http://forum.kerbalspaceprogram.com/index.php?/topic/149848-12-kerbal-inventory-system-kis-v140/) for the complete installation instructions.
 	+ 1.4.0 (December 4rd, 2016)
