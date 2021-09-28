@@ -1,5 +1,10 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2016-0503: 1.2.9 (IgorZ) for KSP 1.1.2.
+	+ 1.2.9 (3 May 2016)
+		- [Change] Temporarily set surface attach node as the most preferable for default. It's a workaround until #134 is fixed.
+		- [Fix] #131: Kerbals can't pull items from Inventories.
+		- [Fix] #133: Concrete block doesn't attach.
 * 2016-0502: 1.2.8 (IgorZ) for KSP 1.1.2.
 	+ 1.2.8 (2 May 2016)
 		- [Change] Compatibility change for KSP 1.1.2.
