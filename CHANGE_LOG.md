@@ -1,5 +1,15 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2019-0202: 1.18 (IgorZ) for KSP ['1.6.1', '1.6.0']
+	+ 1.18 (February 2nd, 2019):
+		- [Change] Add an optional (yet) patch file to make the legacy KIS containers physics complient. See file `kis_physical_containers.cfg.txt`.
+		- [Enhancement] Add French localization.
+		- [Enhancement] Improve English part descriptions.
+		- [Enhancement] Add IWC-4500 "Wyvern" part.
+		- [Fix #297] IMC-15K has wrong part volume.
+		- [Fix #301] "volumeOverride" is not working.
+		- [Fix #302] Structurel panel has wrong nodes.
+		- [Fix #303] Game's crashing on the new parts.
 * 2019-0129: 1.17 (IgorZ) for KSP ['1.6.1', '1.6.0']
 	+ 1.17 (January 28th, 2019):
 		- KSP 1.6 support. This mod's version is not compatible with the prior versions of KSP!
