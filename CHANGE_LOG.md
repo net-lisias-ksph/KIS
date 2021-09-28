@@ -1,5 +1,13 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2019-1023: 1.23 (IgorZ) for KSP 1.8
+	+ 1.23 (October 23rd, 2019):
+		- [Change] `KSP 1.8` compatibility. __WARNING__: the mod won't work with version lower than `KSP 1.8`!
+		- [Change] Replace `Editor/partGrabModifiers` setting with `Editor/editorPartGrabAction`.
+		- [Enhancement] Allow dropping KIS items on the kerbal: [Dragging equipped items](https://youtu.be/udTj7_pO2hc). Thanks to [sleepyquelea](https://github.com/sleepyquelea)!
+		- [Fix #339] Inflatable habitat parts have unreasonable inventories.
+		- [Fix #341] AddPodInventories not called for initial crew capacity 0.
+		- [Fix #348] Volumes of some parts are too high to fit the KIS containers.
 * 2019-0531: 1.22 (IgorZ) for KSP 1.7.1
 	+ 1.22 (May 30th, 2019):
 		- [Change] "Breaking ground" DLC support.
