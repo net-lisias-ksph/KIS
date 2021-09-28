@@ -1,5 +1,9 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2017-0128: 1.4.2 (IgorZ) for KSP 1.2
+	+ Do not use this release to install the mod! It's only a sources snapshot. Go to the forum thread for the complete installation instructions.
+	+ 1.4.2 (January 28th, 2017)
+		- [Fix #197] Part is created on the kerbal instead of the target vessel.
 * 2017-0117: 1.4.1 (IgorZ) for KSP 1.2
 	+ Do not use this release to install the mod! It's only a sources snapshot. Go to the [forum thread](http://forum.kerbalspaceprogram.com/index.php?/topic/149848-12-kerbal-inventory-system-kis-v140/) for the complete installation instructions.
 	+ 1.4.1 (January 16th, 2017)
