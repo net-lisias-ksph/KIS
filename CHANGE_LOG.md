@@ -1,5 +1,9 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2020-0426: 1.25 (IgorZ) for KSP ['1.9.1', '1.9']
+	+ 1.25 (April 25th, 2020):
+		- [Change] Stop complaining about KSP minor version change.
+		- [Change] Update ES-ES localization.
 * 2019-1207: 1.24 (IgorZ) for KSP ['1.8.1', '1.8']
 	+ 1.24 (December 6th, 2019):
 		- [Change] Add a workaround for #354 to not get GUI freezed.
