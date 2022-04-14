@@ -1,5 +1,12 @@
 # Kerbal Inventory System (KIS) :: Change Log
 
+* 2022-0105: 1.29 (IgorZ) for KSP ['1.12.3', '1.12.2', '1.12.1', '1.12.0']
+	+ 1.29 (January 4th, 2022):
+		- [Enhancement] Support game's UI scale in all dialogs.
+		- [Enhancement] Reduce the EVA canister dry mass to 1kg.
+		- [Fix] Total mass is not ajdusted when fuel is expended from the EVA tank.
+		- [Fix] Recalculate the resources mass on load to fix wrong state of the EVA tank.
+		- [Fix #394] Refuel tank throws error on refuel action.
 * 2021-0116: 1.28 (IgorZ) for KSP 1.11.0
 	+ 1.28 (January 15th, 2021):
 		- [Fix #378] Dropped parts cannot be moved or trigger physics.
